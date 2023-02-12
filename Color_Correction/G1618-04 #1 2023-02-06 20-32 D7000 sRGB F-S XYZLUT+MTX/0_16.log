@@ -1,0 +1,43 @@
+2023-02-06 20:33:24,951 --------------------------------------------------------------------------------
+2023-02-06 20:33:24,951 工作目录：
+2023-02-06 20:33:24,953   c:\
+2023-02-06 20:33:24,953    users\
+2023-02-06 20:33:24,953     123\
+2023-02-06 20:33:24,953      appdata\
+2023-02-06 20:33:24,954       local\
+2023-02-06 20:33:24,954        temp\
+2023-02-06 20:33:24,954         DisplayCAL-_wmhgj\
+2023-02-06 20:33:24,954 
+2023-02-06 20:33:24,956 命令行：
+2023-02-06 20:33:24,956   C:\Users\123\AppData\Roaming\DisplayCAL\dl\Argyll_V2.1.2\bin\dispread.exe
+2023-02-06 20:33:24,956     -v
+2023-02-06 20:33:24,957     -k
+2023-02-06 20:33:24,957     "C:\Program Files (x86)\DisplayCAL\linear.cal"
+2023-02-06 20:33:24,957     -d1
+2023-02-06 20:33:24,957     -c1
+2023-02-06 20:33:24,957     -yn
+2023-02-06 20:33:24,957     "-P0.998171846435,0.5,0.943642611684"
+2023-02-06 20:33:24,957     0_16
+2023-02-06 20:33:24,959 
+2023-02-06 20:33:25,394 DisplayCAL: Starting interaction with subprocess
+2023-02-06 20:33:25,397 Number of patches = 3
+2023-02-06 20:33:25,397 Setting up the instrument
+2023-02-06 20:33:26,509 Product Name:      i1Display3
+2023-02-06 20:33:26,509 Serial Number:     I1-16.B-02.248530.06
+2023-02-06 20:33:26,509 Firmware Version:  v2.28
+2023-02-06 20:33:26,510 Firmware Date:     29Jan14
+2023-02-06 20:33:26,825 Place instrument on test window.
+2023-02-06 20:33:26,826 DisplayCAL: Detected instrument placement (screen/spot) message
+2023-02-06 20:33:26,826 DisplayCAL: Waiting for send buffer
+2023-02-06 20:33:28,328 DisplayCAL: Skipping place instrument on screen message...
+2023-02-06 20:33:28,339 DisplayCAL: Sending buffer: ' '
+2023-02-06 20:33:28,342 Hit Esc or Q to give up, any other key to continue:
+2023-02-06 20:33:30,950 Measured display update delay of 76 msec, using delay of 201 msec & 0 msec inst reaction
+2023-02-06 20:33:34,880 Patch 3 of 3
+2023-02-06 20:33:34,880 The instrument can be removed from the screen.
+2023-02-06 20:33:35,039 Written '0_16.ti3'
+2023-02-06 20:33:35,144 DisplayCAL: Reached EOF (OK)
+2023-02-06 20:33:35,145 dispread exitcode: 0
+2023-02-06 20:33:35,154 RGB level 0 is 0.376363 cd/m2
+2023-02-06 20:33:35,154 RGB level 16 is 1.608557 cd/m2
+2023-02-06 20:33:35,154 Assuming full range output levels
