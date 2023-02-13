@@ -12,6 +12,7 @@
       <a href="#getting-started">Getting Started</a>
       <ul>
         <li><a href="#installation">Installation</a></li>
+        <li><a href="#useful-information">Useful information</a></li>
       </ul>
     </li>
     <li>
@@ -32,6 +33,7 @@
   </ol>
 </details>
 
+<!-- GETTING STARTED -->
 ## Getting Started
 
 This is an set of instruction or checklist of sorts for me to follow once I get my device. I will do two different ones because I will be doing a fresh install of windows on a new SSD, and the included SSD will be left for trouble-shooting.
@@ -61,7 +63,66 @@ This is an set of instruction or checklist of sorts for me to follow once I get 
 12. Do a full malware scan, or reinstall OS.
     
 ### Installation
+ * ***Windows***
+    <details>
+    <summary>GPD Windows ISO</summary>
+     1. <a href="https://gpd.hk/download">Download GPD's windows ISO</a>
+     2.
+   
+    
+   </details>
+    
+   <details>
+     <summary>Clean Windows ISO</summary>
+     1. Download microsoft official ISO: </br>
+     <ul>
+         <a href="https://www.microsoft.com/en-us/software-download/windows10ISO">Windows 10</a> </br>
+         <a href="https://www.microsoft.com/en-us/software-download/windows11">Windows 11</a> </br>
+      </ul>
+     2.
+    
+    </details>
+ 
+  
+ * ***SteamOS***
+     > Useful repo if venturing into Steam os. [Proton's Direct3D 12 implementation](https://github.com/HansKristian-Work/vkd3d-proton) 
+ 
+ 
+     <details>
+     <summary>SteamDeck OS</summary>
+     1.    <a href="https://help.steampowered.com/en/faqs/view/1B71-EDF2-EB6D-2BB3">Download the steamdeck OS recovery image from valve</a> </br>
+     2. TBD - Once I receive my unit I will populate this
+    
+    </details>
+    
+     <details>
+     <summary>Steam OS</summary>
+     1.    <a href="https://store.steampowered.com/steamos/buildyourown">Download steamOS official ISO</a> </br>
+     2. TBD - Once I receive my unit I will populate this
+    
+    </details>
 
+### Useful Information
+
+***Changing the iGPU vRAM allocation***
+> Note: The ram on the GPD Win 4 is shared meaning that the 16GB or 32GB of RAM of the device will go to both the CPU and GPU which could hamper performance of the devices depending on the configuration. The recommended amount of vRAM is 4GB for the 16GB RAM model, and 8GB for the 32GB RAM model.
+
+1. Enter BIOS by holding the DEL key during boot
+2. Go to "Advanced" tab
+3. Go to "GFX Configuration"
+4. Change "UMA Frame buffer Size" to desired value, the recommended value is 4GB for the 16GB RAM model, and 8GB for the 32GB RAM model.
+5. Press ESC and go to "Save & Exit" tab
+6. Select "Save Changes and Exit" and select "Yes"
+
+> ***btprice2001*** shared this images on the discord to show the difference between difference vRAM allocations at different TDP's.
+
+![Red Dead Redemption](https://github.com/lertsoft/GPD_WIN4/blob/main/images/RDR2-32APU%20Share%20memory%20perfomance.png)
+
+![Cyberpunk](https://github.com/lertsoft/GPD_WIN4/blob/0374d83c747fbcd464f696301f024df4ed26fbd5/images/CP-32APU%20Share%20memory%20perfomance.png)
+
+![Forza Horizon 5](https://github.com/lertsoft/GPD_WIN4/blob/0374d83c747fbcd464f696301f024df4ed26fbd5/images/FH5-APU%20Share%20memory%20perfomance.png)
+
+![Shadow of the Tomb Raider](https://github.com/lertsoft/GPD_WIN4/blob/0374d83c747fbcd464f696301f024df4ed26fbd5/images/SOTTR-32APU%20Share%20memory%20perfomance.png)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -98,7 +159,7 @@ https://github.com/Valkirie/HandheldCompanion/tree/0.14.0.9
 Control and change the TDP of the compatible devices.</br>
 https://github.com/project-sbc/Power-Control-Panel-v2
 
-### Software to test your device
+### test your device
 ***GPU***</br>
 https://github.com/kruzer/poclmembench/tree/0.91
 
@@ -106,9 +167,6 @@ https://github.com/kruzer/poclmembench/tree/0.91
 https://www.passmark.com/products/performancetest/index.php
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-<!-- GETTING STARTED -->
 
 <!-- YOUTUBE TUTORIAL AND VIDEOS -->
 ## Youtube Videos
