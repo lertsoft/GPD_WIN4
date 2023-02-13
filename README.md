@@ -89,9 +89,10 @@ This is an set of instruction or checklist of sorts for me to follow once I get 
  
  
      <details>
-     <summary>SteamDeck OS</summary>
+     <summary>SteamDeck OS - Recovery Image</summary>
      1.    <a href="https://help.steampowered.com/en/faqs/view/1B71-EDF2-EB6D-2BB3">Download the steamdeck OS recovery image from valve</a> </br>
-     2. TBD - Once I receive my unit I will populate this
+     2.    <a href="https://gist.github.com/drraccoony/8a8d0a9e3dfde9fafd3e374e418d2935#setting-expectations">This gist has all the needed information</a> </br>
+     3. TBD - I will follow these steps once I receive my Win4
     
     </details>
     
