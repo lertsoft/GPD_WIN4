@@ -9,19 +9,18 @@
   <summary>Table of Contents</summary>
   <ol>
     <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li>
       <a href="#drivers--applications">Drivers & Applications</a>
       <ul>
         <li><a href="#motion-assistant">Motion Assistant</a></li>
         <li><a href="#screen-color-correction">Screen Color Correction</a></li>
         <li><a href="#power-control-panel-v2">power-Control-Panel-v2</a></li>
         <li><a href="#test-your-device">Test your device</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
     <li><a href="#youtube-videos">Youtube Videos</a></li>
@@ -33,19 +32,57 @@
   </ol>
 </details>
 
+## Getting Started
+
+This is an set of instruction or checklist of sorts for me to follow once I get my device. I will do two different ones because I will be doing a fresh install of windows on a new SSD, and the included SSD will be left for trouble-shooting.
+
+> for those of us that would lopve to 3D print some accesories. </br>
+***[3D model file](https://github.com/lertsoft/GPD_WIN4/releases/tag/v0.1.1-3DModel)***
+
+### Test your Hardware 
+1. Test gpu under load, look for black screens. (Use graphically instensive software. ie. AAA games, 3dmark, photoshop, etc.)
+2. Check bios version (Only update if necessary, see #1 ^^ Above ^^)
+3. Test all keyboard keys and buttons.
+4. Test all the ports. 
+    * USB C 4 - Top. Should charge and transmit up to 40 Gbps.
+    * USB A 3.2 - Top. Should transmit up to 10 Gbps.
+    * USB C 3.2 - Bottom. Should charge and transmit up to 10 Gbps.
+5. Test the micro sd card slot. Look for disconnecting and reconnecting issues, be patience as this might take a day or two of using the slot to notice any unexpected behavior.
+4. Test analog deadzones and update firmware if needed
+6. Look for dead pixels
+7. Test the Touch screen for deadzones. (dragging your finger across the entire screen could help finding any)
+8. Test the small touchpad ( if it doesn't work or is not working properly update firmware)
+9. Look for any gaps on the devices.
+    * Check the seams between the top shell and bottom shell.
+    * Check for gaps between the screen and the screen holder.
+    * Check for more than normal gaps between the sliding screen and keyboard, ( More than 3 mm should bad, I think)
+10. [Test your analog stick circularity](https://gamepad-tester.com).
+11. Make sure your keycaps, top and bottom shell does not have any cracks.
+12. Do a full malware scan, or reinstall OS.
+    
+### Installation
+
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 <!-- DRIVERS & APPLICATIONS -->
 ## Drivers & Applications
+> for now most of GPD software for the Win4 should be considered pre-release. For the release version of the drivers, or other go to [GPD Download page](https://gpd.hk/download)
 
-### Motion Assistant
-[Original Source](https://discord.com/channels/243411108940087297/826965330965430272/1037625013441933382) </br>
-[Github Release](https://github.com/lertsoft/GPD_WIN4/releases/tag/v1.1.4)
+1. [AMD Adrenalin software](https://www.amd.com/en/support/apu/amd-ryzen-processors/amd-ryzen-7-mobile-processors-radeon-graphics/amd-ryzen-7-6800u)
+2. [GPD Driver pack](https://github.com/lertsoft/GPD_WIN4/releases/tag/v4)
+3. [GPD Windows version - Not release yet]()
+4. Motion Assistant <br>
+    a. [Original Source](https://discord.com/channels/243411108940087297/826965330965430272/1037625013441933382) </br>
+    b. [download link](https://github.com/lertsoft/GPD_WIN4/releases/tag/v1.1.4)
 
 ### Screen Color Correction
 > These files were provided by GPD. See video description. </br>
 
-[Files](Color_Correction)
+* [Files](Color_Correction)
 
-[GPD Color correction Video](https://www.youtube.com/watch?v=-QiW4Zqy-6E)
+* [GPD Color correction Video](https://www.youtube.com/watch?v=-QiW4Zqy-6E)
 
 ### Handheld Companion
 Use cases taken from the Handheld companion repo:
@@ -61,7 +98,7 @@ https://github.com/Valkirie/HandheldCompanion/tree/0.14.0.9
 Control and change the TDP of the compatible devices.</br>
 https://github.com/project-sbc/Power-Control-Panel-v2
 
-### Test your device
+### Software to test your device
 ***GPU***</br>
 https://github.com/kruzer/poclmembench/tree/0.91
 
@@ -70,18 +107,21 @@ https://www.passmark.com/products/performancetest/index.php
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+
+<!-- GETTING STARTED -->
+
 <!-- YOUTUBE TUTORIAL AND VIDEOS -->
 ## Youtube Videos
 
 The Phawx</br>
-Setting up Motion Assistant on the WIN4. [LINK](https://www.youtube.com/watch?v=WWkmyAxn6-E)
-Setting up Auto TDP tool on 6800U devices. [LINK](https://www.youtube.com/watch?v=ZnEQ068poY0)
+- Setting up Motion Assistant on the WIN4. [LINK](https://www.youtube.com/watch?v=WWkmyAxn6-E) </br>
+- Setting up Auto TDP tool on 6800U devices. [LINK](https://www.youtube.com/watch?v=ZnEQ068poY0)
 
 TheRelaxingEnd</br>
-ASMR Video of the GPD Win 4. [LINK](https://www.youtube.com/watch?v=livIIS8MYe0)
+- ASMR Video of the GPD Win 4. [LINK](https://www.youtube.com/watch?v=livIIS8MYe0)
 
 NITTRX</br>
-Disassembly of the GPD Win 4. [LINK](https://www.youtube.com/watch?v=dhbx1abJWTc)
+- Disassembly of the GPD Win 4. [LINK](https://www.youtube.com/watch?v=dhbx1abJWTc)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
