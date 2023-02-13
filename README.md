@@ -74,15 +74,14 @@ https://www.passmark.com/products/performancetest/index.php
 ## Youtube Videos
 
 The Phawx</br>
-How to set up Auto TDP on 6800U devices. [Link](https://www.youtube.com/watch?v=ZnEQ068poY0)
+Setting up Motion Assistant on the WIN4. [LINK](https://www.youtube.com/watch?v=WWkmyAxn6-E)
+Setting up Auto TDP tool on 6800U devices. [LINK](https://www.youtube.com/watch?v=ZnEQ068poY0)
 
 TheRelaxingEnd</br>
-ASMR Video of the GPD Win 4. 
-[Link](https://www.youtube.com/watch?v=livIIS8MYe0)
+ASMR Video of the GPD Win 4. [LINK](https://www.youtube.com/watch?v=livIIS8MYe0)
 
 NITTRX</br>
-Disassembly of the GPD Win 4. 
-[Link](https://www.youtube.com/watch?v=dhbx1abJWTc)
+Disassembly of the GPD Win 4. [LINK](https://www.youtube.com/watch?v=dhbx1abJWTc)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
