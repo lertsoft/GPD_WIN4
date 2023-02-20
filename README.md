@@ -43,6 +43,7 @@ This is an set of instruction or checklist of sorts for me to follow once I get 
 
 ### Test your Hardware 
 1. Test gpu under load, look for black screens. (Use graphically instensive software. ie. AAA games, 3dmark, photoshop, etc.)
+    * [🚨🚨 GPU STRESS TEST SOFTWARE 🚨🚨](https://geeks3d.com/furmark/)
 2. Check bios version (Only update if necessary, see #1 ^^ Above ^^)
 3. Test all keyboard keys and buttons.
 4. Test all the ports. 
@@ -61,13 +62,15 @@ This is an set of instruction or checklist of sorts for me to follow once I get 
 10. [Test your analog stick circularity](https://gamepad-tester.com).
 11. Make sure your keycaps, top and bottom shell does not have any cracks.
 12. Do a full malware scan, or reinstall OS.
+13. [Stress Test Your CPU ](https://www.mersenne.org/download/)
+
     
 ### Installation
  * ***Windows***
     <details>
     <summary>GPD Windows ISO</summary>
-     1. <a href="https://gpd.hk/download">Download GPD's windows ISO</a>
-     2.
+     1. <a href="https://gpd.hk/download">Download GPD's windows ISO</a> </br>
+     2. Install Windows like you normally would </br>
    
     
    </details>
@@ -79,7 +82,7 @@ This is an set of instruction or checklist of sorts for me to follow once I get 
          <a href="https://www.microsoft.com/en-us/software-download/windows10ISO">Windows 10</a> </br>
          <a href="https://www.microsoft.com/en-us/software-download/windows11">Windows 11</a> </br>
       </ul>
-     2.
+     2. Install Windows like you normally would </br>
     
     </details>
  
@@ -104,6 +107,8 @@ This is an set of instruction or checklist of sorts for me to follow once I get 
     </details>
 
 ### Useful Information
+
+[GPD WIN4 Manual](Manuals/GPD_WIN4_User_Mannual.pdf)
 
 ***Changing the iGPU vRAM allocation***
 > Note: The ram on the GPD Win 4 is shared meaning that the 16GB or 32GB of RAM of the device will go to both the CPU and GPU which could hamper performance of the devices depending on the configuration. The recommended amount of vRAM is 4GB for the 16GB RAM model, and 8GB for the 32GB RAM model.
@@ -130,14 +135,19 @@ This is an set of instruction or checklist of sorts for me to follow once I get 
 
 <!-- DRIVERS & APPLICATIONS -->
 ## Drivers & Applications
-> for now most of GPD software for the Win4 should be considered pre-release. For the release version of the drivers, or other go to [GPD Download page](https://gpd.hk/download)
+> GPD Official release drivers are out! This is the link to get them. [GPD Download page](https://gpd.hk/gpdwin4firmwaredriver)
 
 1. [AMD Adrenalin software](https://www.amd.com/en/support/apu/amd-ryzen-processors/amd-ryzen-7-mobile-processors-radeon-graphics/amd-ryzen-7-6800u)
-2. [GPD Driver pack](https://github.com/lertsoft/GPD_WIN4/releases/tag/v4)
-3. [GPD Windows version - Not release yet]()
+2. [GPD Driver pack](https://github.com/lertsoft/GPD_WIN4/releases/tag/v5)
+3. [GPD Windows 11 22H2](https://gpd.hk/gpdwin4firmwaredriver)
 4. Motion Assistant <br>
     a. [Original Source](https://discord.com/channels/243411108940087297/826965330965430272/1037625013441933382) </br>
-    b. [download link](https://github.com/lertsoft/GPD_WIN4/releases/tag/v1.1.4)
+    b. [download link](https://github.com/lertsoft/GPD_WIN4/releases/tag/v1.1.4) </br>
+    c. [Motion Asisstant Manual](Manuals/Motion_Assitant_manual.pdf) </br>
+5. WIN Control <br>
+    a. [Original Source](https://gpd.hk/gpdwin4firmwaredriver) </br>
+    b. [download link](https://github.com/lertsoft/GPD_WIN4/releases/tag/v1.08) </br>
+    c. [WIN Controls Manual](Manuals/GPD_Win_Controls_Manual.pdf) </br>
 
 ### Screen Color Correction
 > These files were provided by GPD. See video description. </br>
