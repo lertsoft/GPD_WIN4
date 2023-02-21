@@ -148,6 +148,7 @@ This is an set of instruction or checklist of sorts for me to follow once I get 
     a. [Original Source](https://gpd.hk/gpdwin4firmwaredriver) </br>
     b. [download link](https://github.com/lertsoft/GPD_WIN4/releases/tag/v1.08) </br>
     c. [WIN Controls Manual](Manuals/GPD_Win_Controls_Manual.pdf) </br>
+6. [Windows Debloating tool](https://christitus.com/windows-tool/) </br>
 
 ### Screen Color Correction
 > These files were provided by GPD. See video description. </br>
