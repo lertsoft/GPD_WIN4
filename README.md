@@ -144,6 +144,7 @@ This is an set of instruction or checklist of sorts for me to follow once I get 
     a. [Original Source](https://discord.com/channels/243411108940087297/826965330965430272/1037625013441933382) </br>
     b. [download link](https://github.com/lertsoft/GPD_WIN4/releases/tag/v1.1.4) </br>
     c. [Motion Asisstant Manual](Manuals/Motion_Assitant_manual.pdf) </br>
+    d. [Motion Assistant setup and benefits](https://www.youtube.com/watch?v=M3NNxC-BYQs)
 5. WIN Control <br>
     a. [Original Source](https://gpd.hk/gpdwin4firmwaredriver) </br>
     b. [download link](https://github.com/lertsoft/GPD_WIN4/releases/tag/v1.08) </br>
@@ -183,15 +184,18 @@ https://www.passmark.com/products/performancetest/index.php
 <!-- YOUTUBE TUTORIAL AND VIDEOS -->
 ## Youtube Videos
 
-The Phawx</br>
+The Phawx </br>
 - Setting up Motion Assistant on the WIN4. [LINK](https://www.youtube.com/watch?v=WWkmyAxn6-E) </br>
 - Setting up Auto TDP tool on 6800U devices. [LINK](https://www.youtube.com/watch?v=ZnEQ068poY0)
 
-TheRelaxingEnd</br>
+TheRelaxingEnd </br>
 - ASMR Video of the GPD Win 4. [LINK](https://www.youtube.com/watch?v=livIIS8MYe0)
 
-NITTRX</br>
+NITTRX </br>
 - Disassembly of the GPD Win 4. [LINK](https://www.youtube.com/watch?v=dhbx1abJWTc)
+
+AquaKlef </br>
+- Motion Assistant setup and Gyroscope benefits. [LINK](https://www.youtube.com/watch?v=M3NNxC-BYQs)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
