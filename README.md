@@ -59,7 +59,7 @@ This is an set of instruction or checklist of sorts for me to follow once I get 
 9. Look for any gaps on the devices.
     * Check the seams between the top shell and bottom shell.
     * Check for gaps between the screen and the screen holder.
-    * Check for more than normal gaps between the sliding screen and keyboard, ( More than 3 mm should bad, I think)
+    * Check for more than normal gaps between the sliding screen and keyboard, (According to [GPD](https://www.indiegogo.com/projects/gpd-win-4-smallest-6800u-handheld-console#/updates/22) 0.1~0.3mm variation is acceptable tolerance)
 10. [Test your analog stick circularity](https://gamepad-tester.com).
 11. Make sure your keycaps, top and bottom shell does not have any cracks.
 12. Do a full malware scan, or reinstall OS.
