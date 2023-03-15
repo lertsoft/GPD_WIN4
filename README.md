@@ -53,7 +53,7 @@ This is an set of instruction or checklist of sorts for me to follow once I get 
     * USB C 3.2 - Bottom. Should charge and transmit up to 10 Gbps.
 5. Test the micro sd card slot. Look for disconnecting and reconnecting issues, be patience as this might take a day or two of using the slot to notice any unexpected behavior.
 4. Test analog deadzones and update firmware if needed
-6. Look for dead pixels
+6. [Look for dead pixels](https://www.jscreenfix.com/fix.html)
 7. Test the Touch screen for deadzones. (dragging your finger across the entire screen could help finding any)
 8. Test the small touchpad ( if it doesn't work or is not working properly update firmware)
 9. Look for any gaps on the devices.
