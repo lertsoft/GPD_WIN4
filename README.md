@@ -25,6 +25,7 @@
         <li><a href="#test-your-device">Test your device</a></li>
       </ul>
     </li>
+    <li><a href="#troubleshooting">Troubleshooting</a></li>
     <li><a href="#youtube-videos">Youtube Videos</a></li>
     <li><a href="#accesories--parts">Accesories & Parts</a></li>
     <li><a href="#specs">Specs</a></li>
@@ -51,8 +52,16 @@ This is an set of instruction or checklist of sorts for me to follow once I get 
     * USB C 4 - Top. Should charge and transmit up to 40 Gbps.
     * USB A 3.2 - Top. Should transmit up to 10 Gbps.
     * USB C 3.2 - Bottom. Should charge and transmit up to 10 Gbps.
-5. Test the micro sd card slot. Look for disconnecting and reconnecting issues, be patience as this might take a day or two of using the slot to notice any unexpected behavior.
-4. Test analog deadzones and update firmware if needed
+    * [Crystal Disk Mark can be used to test storage speeds on all the  ports including MicroSD slot](https://crystalmark.info/en/software/crystaldiskmark/)
+5. Test the micro sd card slot. Look for disconnecting and reconnecting issues, have patience as this might take a day or two of using the slot to notice any unexpected behavior. </br> If testing Micro SD card slot speed make sure you use UHS-I cards and not UHS-II. The GPD Win4 does not utilize the second row pins of UHS-II. <details>
+                        <summary>UHS-I Pin Layout</summary>
+                        <img src="https://cdn.discordapp.com/attachments/950574522011119707/1086109017358745660/StorageReview-SanDisk-Extreme-microSD-1TB-Bottom.jpg"> </details> 
+    
+    <details>
+    <summary>UHS-II Pin Layout</summary>
+     <img src="https://cdn.discordapp.com/attachments/950574522011119707/1086109017052545105/lexar-1800x-uhs-ii-micro-sd-card-32gb-back.jpg" > </details>
+    
+4. Test analog deadzones and update firmware if needed. [GAMEPAD TESTER](https://gamepad-tester.com).
 6. [Look for dead pixels](https://www.jscreenfix.com/fix.html)
 7. Test the Touch screen for deadzones. (dragging your finger across the entire screen could help finding any)
 8. Test the small touchpad ( if it doesn't work or is not working properly update firmware)
@@ -63,11 +72,14 @@ This is an set of instruction or checklist of sorts for me to follow once I get 
 10. [Test your analog stick circularity](https://gamepad-tester.com).
 11. Make sure your keycaps, top and bottom shell does not have any cracks.
 12. Do a full malware scan, or reinstall OS.
-13. [Stress Test Your CPU ](https://www.mersenne.org/download/)
+13. [STRESS TEST YOUR CPU](https://www.mersenne.org/download/)
 </br>
 
+
+
+**🚨🚨🚨🚨INTERNATIONAL SHIPMENT STARTED ON MONDAY 20/03/2023🚨🚨🚨🚨**
+
 **🚨🚨🚨🚨ALL THIS ISSUES REPORTS ARE FROM GPD DOMESTIC CUSTOMERS IE. CHINA🚨🚨🚨🚨** </BR>
-**🚨🚨🚨🚨INTERNATIONAL SHIPMENT HAS NOT STARTED YET🚨🚨🚨🚨**
 
 ### Known Issues
 
@@ -82,12 +94,14 @@ This is an set of instruction or checklist of sorts for me to follow once I get 
 > These are the major issues that GPD is aware of and working on as of 03/01/2023: **The screen gap isn't symmetrical, the left side gap is bigger**, **right trigger spring is stuck and/or make noises**,  and **Pixel point on screen**. </br>
 [Kendyz - GPD REP Statement](https://www.reddit.com/r/gpdwin/comments/11ex280/the_topic_collection/?utm_source=share&utm_medium=ios_app&utm_name=iossmf)
 
+>  All these issues have been ironed out according to GPD for international orders. </br> **CHECK THEIR [SUBREDDIT](https://www.reddit.com/r/gpdwin/comments/11wc9ss/the_igg_shipping_is_starting/) AND [IGG](https://www.indiegogo.com/projects/gpd-win-4-smallest-6800u-handheld-console#/updates/all)**
+
 ``` 🚨🚨 If there is a solution to any of these issues they will be under that issue! 🚨🚨 ``` </br>
 ``` 🚨🚨 If GPD knows of solved those issues I will mentioned that next to the issue or it will be crossed out! 🚨🚨 ```
 
 #### Screen related issues
 * **~~Uneven screen~~** </br> So far it seen that GPD has improved the tolerance of the screen uneven-ness. So this will be less of an issue on newer batches </br> ![](https://cdn.discordapp.com/attachments/950574522011119707/1078522664861323304/image.png) </br> </br> ![](https://cdn.discordapp.com/attachments/950574522011119707/1076400368541511700/91CA6DD6-B862-4C0F-8695-165E98A45B36.jpg)
-* **Screen is showing artifacts or random pixels.** </br> The screen is showing some pixels? or some artifacts when you use the touchscreen. </br> [Reddit post](https://www.reddit.com/r/gpdwin/comments/11cpjdy/screen_corruption_hw_or_just_swdriversettings/) </br> [YYang - GPD REP Statement](https://discord.com/channels/243411108940087297/950574522011119707/1079599746810916924)  </br> GPD Already knows of the issue is working on fixing it. 
+* **~~Screen is showing artifacts or random pixels.~~** </br> The screen is showing some pixels? or some artifacts when you use the touchscreen. </br> [Reddit post](https://www.reddit.com/r/gpdwin/comments/11cpjdy/screen_corruption_hw_or_just_swdriversettings/) </br> [YYang - GPD REP Statement](https://discord.com/channels/243411108940087297/950574522011119707/1079599746810916924)  </br> GPD Already knows of the issue is working on fixing it. 
 * **~~The touch input is not the same as the register input.~~** </br> The screen is not inputting the right spot of where it was touch. You press in a area the but the input is register in a different area of the screen. </br> [reddit poost](https://www.reddit.com/r/gpdwin/comments/11bvgqc/saw_this_video_is_the_touchscreen_issue_a_hw_fw/) </br> [YYang - GPD REP statement](https://discord.com/channels/243411108940087297/950574522011119707/1079598944134365214) </br> GPD knows of this issue but don't know yet if it is hardware or software. And the reports are from a small amount of people. </br> THIS ISSUES SEEMS TO BE FIXED WITH THE NEWER DRIVERS. </br> [Discord message](https://discord.com/channels/243411108940087297/950574522011119707/1080676813510021271).
 
 #### Cosmetic related issues
@@ -95,7 +109,7 @@ This is an set of instruction or checklist of sorts for me to follow once I get 
 
 #### Other hardware issues
 * **~~SD Card slot might be too deep??~~** </br> Ejecting a SD card can be tricky because the card is too deep inside the pc to easily retrieved with finger. The user had to use a little stick to get it to eject. </br> IT SEEMS THIS WAS FIXED IN NEWER BATCHES. </br> [Discord Post](https://discord.com/channels/243411108940087297/950574522011119707/1080425585391714405)
-* **When sliding the screen the keyboard register a key press**. </br> GPD seem to be aware of the issue. As kendys a GPD Rep commented on the post. </br> [Reddit post](https://www.reddit.com/r/gpdwin/comments/11dr5hd/a_few_reports_of_the_o_key_getting_pressed_when/) 
+* **~~When sliding the screen the keyboard register a key press~~**. </br> GPD seem to be aware of the issue. As kendys a GPD Rep commented on the post. </br> [Reddit post](https://www.reddit.com/r/gpdwin/comments/11dr5hd/a_few_reports_of_the_o_key_getting_pressed_when/) 
 * **~~Analog stick rotates a little, Screen could make a tap sound, and mouse input not working as intented~~**. </br> GPD has updated the drivers for win 4 so that the mouse works as intended [message link](https://discord.com/channels/243411108940087297/950574522011119707/1080667865075687497), the stick rotation is to be expected according to GPD as the stick is removable, and GPD has improved QC so that the screen tap sound does not happen again. </br> [Reddit Post](https://www.reddit.com/r/gpdwin/comments/11d8gej/my_win4s_problem_round_2/)
 * **~~Compilation of most of the early issues in one video~~**. </br> MOST OF THESE ISSUES HAS BEEN FIXED IN NEWER BATCHES. </br> [Reddit Post](https://www.reddit.com/r/gpdwin/comments/116y8ww/domestic_beta_testers_working_hard_doing_qc_i/)
     
@@ -139,6 +153,8 @@ This is an set of instruction or checklist of sorts for me to follow once I get 
      2. TBD - Once I receive my unit I will populate this
     
     </details>
+    
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Useful Information
 
@@ -175,13 +191,13 @@ This is an set of instruction or checklist of sorts for me to follow once I get 
 2. [GPD Driver pack](https://github.com/lertsoft/GPD_WIN4/releases/tag/v5)
 3. [GPD Windows 11 22H2](https://gpd.hk/gpdwin4firmwaredriver)
 4. Motion Assistant <br>
-    a. [Original Source](https://discord.com/channels/243411108940087297/826965330965430272/1037625013441933382) </br>
-    b. [download link](https://github.com/lertsoft/GPD_WIN4/releases/tag/v1.1.4) </br>
+    a. [Original Source](https://gpd.hk/gpdwin4firmwaredriver) </br>
+    b. [download link](https://github.com/lertsoft/GPD_WIN4/releases/tag/v1.1.60) </br>
     c. [Motion Asisstant Manual](Manuals/Motion_Assitant_manual.pdf) </br>
     d. [Motion Assistant setup and benefits](https://www.youtube.com/watch?v=M3NNxC-BYQs)
 5. WIN Control <br>
     a. [Original Source](https://gpd.hk/gpdwin4firmwaredriver) </br>
-    b. [download link](https://github.com/lertsoft/GPD_WIN4/releases/tag/v1.08) </br>
+    b. [download link](https://github.com/lertsoft/GPD_WIN4/releases/tag/v1.10) </br>
     c. [WIN Controls Manual](Manuals/GPD_Win_Controls_Manual.pdf) </br>
 6. [Windows Debloating tool](https://christitus.com/windows-tool/) </br>
 
@@ -215,7 +231,43 @@ https://www.passmark.com/products/performancetest/index.php
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- YOUTUBE TUTORIAL AND VIDEOS -->
+<!-- TROUBLESHOOTING -->
+## Troubleshooting
+
+- **USB A speeds are not as advertised** </br>
+  > If after testing your USB A port your speeds are not up to the standard of USB 3.2 and your device has speeds close to USB 2 than 3 then this could be a solution / workaround. Thanks to **DesignGears** on Discord [Message Link](https://discord.com/channels/243411108940087297/950574522011119707/1086042020528787566) :) 
+  
+  1. Connect a USB A to USB Hub. Test.
+  2. If it didn't work check windows device manager, and USBDeview and see if the devices are there with the specified spec ie. USB 3.2
+  3. If it didn't work check for latest drivers ie. GPD, AMD Adrenalin, Windows, ETC. 
+  4. If it didn't work test on linux.
+  5. if it didn't work reset BIOS, using the little pin hole on the side.
+  6. If it didn't work check that your device internals is correctly connected.
+  7. If none of this steps worked check-in with GPD support, because that might be faulty a parts.
+  
+  **DesignGears** tests screenshoots of before and after the fix / workaround.
+  <details>
+  <summary>Before Inserting the USB Hub speeds</summary>
+  <img src="https://cdn.discordapp.com/attachments/950574522011119707/1085966466676953088/image.png"> </details> 
+    
+   <details>
+   <summary>After inserting the USB Hub speeds</summary>
+    <img src="https://cdn.discordapp.com/attachments/950574522011119707/1086041784339157002/IMG_1072.jpg" > </details>
+    
+  
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- TUTORIALS, REVIEWS AND VIDEOS -->
+
+## Tutorials
+- How to use Crystal Disk Mark to test storage and ports speeds. [LINK](https://www.grdian.com/resources/how-to-use-crystaldiskmark-to-test-your-storage-device)
+
+- In-Depth review from Notebookcheck. [LINK](https://www.notebookcheck.net/GPD-Win-4-handheld-PC-review-1080p-Ryzen-7-gaming-in-the-palm-of-your-hand.700543.0.html). </br> Please note; The microSD card that they used for their test is UHS-II which **DesignGears** on discord tested and found out they will never reach the UHS-II speed because the slot is designed for UHS-I cards, see difference in the pin layouts <a href="#getting-started">HERE</a>.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ## Youtube Videos
 
 The Phawx </br>
@@ -294,7 +346,6 @@ Project Link: [https://github.com/lertsoft/GPD_WIN4](https://github.com/lertsoft
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-* [Choose an Open Source License](https://choosealicense.com)
 * [btprice2001]()
 * [Sabrina](https://github.com/SabrinaRDC/WM2-Help)
 * [The Phawx](https://www.youtube.com/@ThePhawx)
