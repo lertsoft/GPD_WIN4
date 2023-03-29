@@ -41,7 +41,9 @@
 This is an set of instruction or checklist of sorts for me to follow once I get my device. I will do two different ones because I will be doing a fresh install of windows on a new SSD, and the included SSD will be left for trouble-shooting.
 
 > for those of us that would love to 3D print some accesories. </br>
-***[3D model file](https://github.com/lertsoft/GPD_WIN4/releases/tag/v0.1.1-3DModel)***
+***[3D model file](https://github.com/lertsoft/GPD_WIN4/releases/tag/v0.1.1-3DModel)*** </br>
+***[Shoulder Buttons - L & R](https://github.com/lertsoft/GPD_WIN4/releases/tag/v0.1.1-3DModel)*** </br>
+***[Grip Case](https://github.com/lertsoft/GPD_WIN4/releases/tag/0.1.3D-Model)***
 
 ### Test your Hardware 
 1. Test gpu under load, look for black screens. (Use graphically instensive software. ie. AAA games, 3dmark, photoshop, etc.)
@@ -255,7 +257,16 @@ https://www.passmark.com/products/performancetest/index.php
     <img src="https://cdn.discordapp.com/attachments/950574522011119707/1086041784339157002/IMG_1072.jpg" > </details>
     
   
-
+- **TouchScreen is not working** </br>
+  > If you used an SSD or SD Card from another device and that storage device had the screen drivers from a different device ie. Ayaneo, Steamdeck, etc. </br> It could turned the screen in a portrait orientation, cause touchscreen, and/or panel issues on the GPD Win4. If you run into these issues follow this steps. Thanks to **DesignGears** on Discord [Message Link](https://discord.com/channels/243411108940087297/950574522011119707/1090683247329030247) :) 
+  
+  1. [Download the new driver for the screen.](https://github.com/lertsoft/GPD_WIN4/releases/tag/v5.1)
+  2. Install the drivers
+  3. Restart the device
+  4. The issue should be fixed.
+  5. If not. Send a message to kendyz or ask a question on discord or here.
+  
+  
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -345,7 +356,7 @@ Project Link: [https://github.com/lertsoft/GPD_WIN4](https://github.com/lertsoft
 
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
-
+* [DesignGears]()
 * [btprice2001]()
 * [Sabrina](https://github.com/SabrinaRDC/WM2-Help)
 * [The Phawx](https://www.youtube.com/@ThePhawx)
