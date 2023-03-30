@@ -247,7 +247,7 @@ https://www.passmark.com/products/performancetest/index.php
 ## Troubleshooting
 
 - **USB A speeds are not as advertised** </br>
-  > If after testing your USB A port your speeds are not up to the standard of USB 3.2 and your device has speeds close to USB 2 than 3 then this could be a solution / workaround. Thanks to **DesignGears** on Discord [Message Link](https://discord.com/channels/243411108940087297/950574522011119707/1086042020528787566) :) 
+   > If after testing your USB A port your speeds are not up to the standard of USB 3.2 and your device has speeds close to USB 2 than 3 then this could be a temporary solution / workaround. Thanks to **DesignGears** on Discord [Message Link](https://discord.com/channels/243411108940087297/950574522011119707/1086042020528787566) :) 
   
   1. Connect a USB A to USB Hub. Test.
   2. If it didn't work check windows device manager, and USBDeview and see if the devices are there with the specified spec ie. USB 3.2
@@ -268,13 +268,25 @@ https://www.passmark.com/products/performancetest/index.php
     
   
 - **TouchScreen is not working** </br>
-  > If you used an SSD or SD Card from another device and that storage device had the screen drivers from a different device ie. Ayaneo, Steamdeck, etc. </br> It could turned the screen in a portrait orientation, cause touchscreen, and/or panel issues on the GPD Win4. If you run into these issues follow this steps. Thanks to **DesignGears** on Discord [Message Link](https://discord.com/channels/243411108940087297/950574522011119707/1090683247329030247) :) 
+   > If you used an SSD or SD Card from another device and that storage device had the screen drivers from a different device ie. Ayaneo, Steamdeck, etc. </br> It could turned the screen in a portrait orientation, cause touchscreen, and/or panel issues on the GPD Win4. If you run into these issues follow this steps. Thanks to **DesignGears** on Discord [Message Link](https://discord.com/channels/243411108940087297/950574522011119707/1090683247329030247) :) 
   
   1. [Download the new driver for the screen.](https://github.com/lertsoft/GPD_WIN4/releases/tag/v5.1)
   2. Install the drivers
   3. Restart the device
   4. The issue should be fixed.
   5. If not. Send a message to kendyz or ask a question on discord or here.
+  
+- **The touch input is not the same as the register input** </br>
+   > This issue could have been cause because of the use of the DriverEasy, or CCleaner apps to update drivers. </br> After a fresh installation the screen is not inputting the right spot of where it was touch. You press in a area the but the input is register in a different area of the screen. [Discord Message](https://discord.com/channels/243411108940087297/950574522011119707/1090985629095034971) </br>
+   > [Discord message confirmation from Fulbringer of this working](https://discord.com/channels/243411108940087297/950574522011119707/1090986774660120706).
+    
+  1. [Download these driver](https://drive.google.com/file/d/1oTt9tUKAQH48GG91fywMVi0p9U5wdfoY/view?usp=share%5C_link)
+  2. Install the drivers
+  3. Restart the device
+  4. The issue should be fixed.
+  5. If not. [check this reddit post](https://www.reddit.com/r/gpdwin/comments/124lfe2/trouble_with_touch_calibration_gpd_win_4/)
+  6. If not. Send a message to kendyz or ask a question on discord or here.</br>
+ 
   
   
 
