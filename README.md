@@ -46,6 +46,8 @@ This is an set of instruction or checklist of sorts for me to follow once I get 
 ***[Trigger Buttons](https://github.com/lertsoft/GPD_WIN4/releases/tag/v0.1.1-3DModel)*** </br>
 ***[Grip Case](https://github.com/lertsoft/GPD_WIN4/releases/tag/0.1.3D-Model)***
 
+**🚨🚨WARNING!🚨🚨 PLEASE IF YOU PLAN ON DOING A FRESH INSTALL I WOULD SUGGEST NOT USING APPS SUCHS AS DRIVEREASY, OR CCLEANER AS THOSE APPS WILL FIND THE LATEST DRIVERS BUT THOSE DRIVERS COULD BE FOR A COMPLETELY DIFFERENT DEVICE, SUCH AS AYANEO WHICH HAS A PORTRAIT SCREEN, AND COULD CAUSE SCREEN ISSUES!  [THANKS TO N1CKN4M3 FOR BRINGING THIS POINT](https://discord.com/channels/243411108940087297/950574522011119707/1090989111642423306)🚨🚨**
+
 ### Test your Hardware 
 1. Test gpu under load, look for black screens. (Use graphically instensive software. ie. AAA games, 3dmark, photoshop, etc.)
     * [🚨🚨 GPU STRESS TEST SOFTWARE 🚨🚨](https://geeks3d.com/furmark/)
@@ -82,9 +84,16 @@ This is an set of instruction or checklist of sorts for me to follow once I get 
 
 **🚨🚨🚨🚨INTERNATIONAL SHIPMENT STARTED ON MONDAY 20/03/2023🚨🚨🚨🚨**
 
-**🚨🚨🚨🚨ALL THIS ISSUES REPORTS ARE FROM GPD DOMESTIC CUSTOMERS IE. CHINA🚨🚨🚨🚨** </BR>
-
 ### Known Issues
+
+**🚨🚨🚨🚨ALL THIS ISSUES REPORTS ARE FROM IGG CUSTOMERS IE, INTERNATIONAL🚨🚨🚨🚨** </BR>
+#### Screen related issues 
+* **The touch input is not the same as the register input. </br> This issue could have been cause because of the use of the DriverEasy app** </br> After a fresh installation the screen is not inputting the right spot of where it was touch. You press in a area the but the input is register in a different area of the screen. [Discord Message](https://discord.com/channels/243411108940087297/950574522011119707/1090985629095034971) </br> [To fix this issue install this driver](https://drive.google.com/file/d/1oTt9tUKAQH48GG91fywMVi0p9U5wdfoY/view?usp=share%5C_link) </br> For More information on this issue [check this reddit post](https://www.reddit.com/r/gpdwin/comments/124lfe2/trouble_with_touch_calibration_gpd_win_4/) </br> [Discord message confirmation from Fulbringer of this working](https://discord.com/channels/243411108940087297/950574522011119707/1090986774660120706).
+
+</BR>
+
+
+**🚨🚨🚨🚨ALL THIS ISSUES REPORTS ARE FROM GPD DOMESTIC CUSTOMERS IE. CHINA🚨🚨🚨🚨** </BR>
 
 > Basically all issues that have been found in the initial stages will be solved, unless there is a severe design/hardware bug, and so far GPD have not gotten such report (and there is a high probability that there will not be such report in the future too) </br> [YYang - GPD REP Statement](https://discord.com/channels/243411108940087297/950574522011119707/1077842038403379272)
 
