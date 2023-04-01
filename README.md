@@ -21,7 +21,7 @@
       <ul>
         <li><a href="#motion-assistant">Motion Assistant</a></li>
         <li><a href="#screen-color-correction">Screen Color Correction</a></li>
-        <li><a href="#power-control-panel-v2">power-Control-Panel-v2</a></li>
+        <li><a href="#tdp-tools">TDP Tools</a></li>
         <li><a href="#test-your-device">Test your device</a></li>
       </ul>
     </li>
@@ -126,6 +126,8 @@ This is an set of instruction or checklist of sorts for me to follow once I get 
 * **~~Compilation of most of the early issues in one video~~**. </br> MOST OF THESE ISSUES HAS BEEN FIXED IN NEWER BATCHES. </br> [Reddit Post](https://www.reddit.com/r/gpdwin/comments/116y8ww/domestic_beta_testers_working_hard_doing_qc_i/)
     
 ### Installation
+> When installing the GPD Provided Windows image do not forget these steps: </br> 1. Format the USB Drive to NTFS. </br> 2. Rename the USB Drive to WINPE </br> 3. Extract the files to USB Drive
+
  * ***Windows***
     <details>
     <summary>GPD Windows ISO</summary>
@@ -220,7 +222,31 @@ This is an set of instruction or checklist of sorts for me to follow once I get 
 
 * [GPD Color correction Video](https://www.youtube.com/watch?v=-QiW4Zqy-6E)
 
-### Handheld Companion
+### TDP Tools
+> Gifs are from Sabrina's github as I do not have my Win4 yet :(
+
+#### Motion Assistant
+a. [Original Source](https://gpd.hk/gpdwin4firmwaredriver) </br>
+b. [download link](https://github.com/lertsoft/GPD_WIN4/releases/tag/v1.1.60) </br>
+c. [Motion Asisstant Manual](Manuals/Motion_Assitant_manual.pdf) </br>
+d. [Motion Assistant setup and benefits](https://www.youtube.com/watch?v=M3NNxC-BYQs) </br>
+
+![](https://user-images.githubusercontent.com/74781086/206900788-e8e89c61-833b-4507-871c-33496eb228d1.gif)
+
+#### [Ciphray.bat](https://discord.com/channels/243411108940087297/1065818597844340777/1076236291705946182)
+a. The phawk made a video explaning how to set this bat boy up 6800U devices. [LINK](https://www.youtube.com/watch?v=ZnEQ068poY0)
+
+![](https://user-images.githubusercontent.com/74781086/206900455-b058a29e-f4ae-438d-b444-5b2dcbcfa981.png)
+
+#### Power Control Panel v2
+> PCP Devs are working on a new version that will add more TDP features
+
+Control and change the TDP of the compatible devices.</br>
+https://github.com/project-sbc/Power-Control-Panel-v2 </br>
+
+![](https://user-images.githubusercontent.com/74781086/206900406-57df3589-3ee1-47e6-a303-9cdc6c9552c1.png)
+
+#### Handheld Companion
 Use cases taken from the Handheld companion repo:
 ```
 " You want to add universal motion controls (UMC) to any game.
@@ -230,9 +256,7 @@ You want to enjoy all your Wii, WiiU and Switch games with full motion controls 
 ```
 https://github.com/Valkirie/HandheldCompanion/tree/0.14.0.9
 
-### Power-Control-Panel-v2
-Control and change the TDP of the compatible devices.</br>
-https://github.com/project-sbc/Power-Control-Panel-v2
+
 
 ### test your device
 ***GPU***</br>
