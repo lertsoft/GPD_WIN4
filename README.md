@@ -174,15 +174,21 @@ This is an set of instruction or checklist of sorts for me to follow once I get 
 
 [GPD WIN4 Manual](Manuals/GPD_WIN4_User_Mannual.pdf)
 
+***Booting from a USB Drive***
+* Hold Shift + FN + 7 
+</br>
+
 ***Changing the iGPU vRAM allocation***
 > Note: The ram on the GPD Win 4 is shared meaning that the 16GB or 32GB of RAM of the device will go to both the CPU and GPU which could hamper performance of the devices depending on the configuration. The recommended amount of vRAM is 4GB for the 16GB RAM model, and 8GB for the 32GB RAM model.
 
 1. Enter BIOS by holding the DEL key during boot
 2. Go to "Advanced" tab
-3. Go to "GFX Configuration"
-4. Change "UMA Frame buffer Size" to desired value, the recommended value is 4GB for the 16GB RAM model, and 8GB for the 32GB RAM model.
-5. Press ESC and go to "Save & Exit" tab
-6. Select "Save Changes and Exit" and select "Yes"
+3. Go to "CBS" tab
+4. Go to "NBIO" tab
+5. Go to "GFX Configuration"
+6. Change "UMA Frame buffer Size" to desired value, the recommended value is 4GB for the 16GB RAM model, and 8GB for the 32GB RAM model.
+7. Press ESC and go to "Save & Exit" tab
+8. Select "Save Changes and Exit" and select "Yes"
 
 > ***btprice2001*** shared this images on the discord to show the difference between difference vRAM allocations at different TDP's.
 
