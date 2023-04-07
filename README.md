@@ -67,7 +67,9 @@ This is an set of instruction or checklist of sorts for me to follow once I get 
      <img src="https://cdn.discordapp.com/attachments/950574522011119707/1086109017052545105/lexar-1800x-uhs-ii-micro-sd-card-32gb-back.jpg" > </details>
     
 4. Test analog deadzones and update firmware if needed. [GAMEPAD TESTER](https://gamepad-tester.com).
-6. [Look for dead pixels](https://www.jscreenfix.com/fix.html)
+6. Test the screen
+    * [Look for dead pixels](https://www.jscreenfix.com/fix.html)
+    * [Test for frame skipping - UFO Test ](https://www.testufo.com/frameskipping)
 7. Test the Touch screen for deadzones. (dragging your finger across the entire screen could help finding any)
 8. Test the small touchpad ( if it doesn't work or is not working properly update firmware)
 9. Look for any gaps on the devices.
@@ -176,6 +178,12 @@ This is an set of instruction or checklist of sorts for me to follow once I get 
 
 ***Booting from a USB Drive***
 * Hold Shift + FN + 7 
+</br>
+
+***Use Custom Resolution Utility (CRU) to create different screen refresh rate ie. 40hz***
+> GPD took away the option of 40hz on the WIN4 panel because of frame skipping, and stability. CRU allows you to create that refresh rate and use.
+
+[Download Link](https://www.monitortests.com/forum/Thread-Custom-Resolution-Utility-CRU)
 </br>
 
 ***Changing the iGPU vRAM allocation***
