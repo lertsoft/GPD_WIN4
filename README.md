@@ -82,6 +82,26 @@ This is an set of instruction or checklist of sorts for me to follow once I get 
 13. [STRESS TEST YOUR CPU](https://www.mersenne.org/download/)
 </br>
 
+### Baseline Test results
+> All this test were done on battery, with a stock device. Not a fresh install of windows. </br>
+> The USB C test where perfomed with a TB cable, Crucial P3, and a NVME enclousure. USB A Test was perfomed with a regular  high-speed USB memory card. </br> This information could be useful when trying out different OS or seeing if an update broke something that should not have been broken.
+
+* Port speed's
+  * USB 4 type C - Top </br>
+   ![](images/baseline/USBC-BOTTOMSABRENT.png) </br>
+  * USB 3.2 type C -  Bottom </br>
+   ![](images/baseline/USBC-BOTTOMSABRENT.png) </br>
+  * USB 3.2 type A - Top </br>
+    ![](images/baseline/usbA-top.png) </br>
+* MicroSD Card speed </br>
+  ![](images/baseline/sdcardtest.png) </br>
+* SSD speed's </br>
+  * Biwin SSD </br> 
+    ![](images/baseline/biwintest.png) </br>
+  * Crucial P3 </br>
+    ![](images/baseline/crucialp3test.png) </br>
+  
+
 
 
 **🚨🚨🚨🚨INTERNATIONAL SHIPMENT STARTED ON MONDAY 20/03/2023🚨🚨🚨🚨**
@@ -92,40 +112,17 @@ This is an set of instruction or checklist of sorts for me to follow once I get 
 #### Screen related issues 
 * **The touch input is not the same as the register input. </br> This issue could have been cause because of the use of the DriverEasy app** </br> After a fresh installation the screen is not inputting the right spot of where it was touch. You press in a area the but the input is register in a different area of the screen. [Discord Message](https://discord.com/channels/243411108940087297/950574522011119707/1090985629095034971) </br> [To fix this issue install this driver](https://drive.google.com/file/d/1oTt9tUKAQH48GG91fywMVi0p9U5wdfoY/view?usp=share%5C_link) </br> For More information on this issue [check this reddit post](https://www.reddit.com/r/gpdwin/comments/124lfe2/trouble_with_touch_calibration_gpd_win_4/) </br> [Discord message confirmation from Fulbringer of this working](https://discord.com/channels/243411108940087297/950574522011119707/1090986774660120706).
 
+* **The touchscreen stops responding after a couple of hours of use.** </br> This issue since to be affecting all units using the bios 3.0.3 which is the one used for almost all of the 16gb ram models. My unit is affected by it but I am not planning on updating the bios yet.  [](https://gpd.hk/gpdwin4firmwaredriver) [](https://drive.google.com/file/d/1Er7Oo7Rct03LfHotQ3lzOnHNEACnCe7_/view)
+
+* **The screen have sync problems and/or jitters** </br> This issue for what have been talked about on discord affect everyone unless someone show prove otherwise because review units from december are affected by this... GPD seems to be working on a fix but so far it seems that the problem is being caused by the Chip that turns the screen from portrait to landscape. If you would like to test your unit to see if it is affected or just curious to know how to test for this try this [site](https://www.testufo.com/mprt) and focus your eyes on the on the UFO (subject). Also this issue is mentioned that it is most noticeble on 2d games.
+
+* **
+
+* **
+
 </BR>
 
-
-**🚨🚨🚨🚨ALL THIS ISSUES REPORTS ARE FROM GPD DOMESTIC CUSTOMERS IE. CHINA🚨🚨🚨🚨** </BR>
-
-> Basically all issues that have been found in the initial stages will be solved, unless there is a severe design/hardware bug, and so far GPD have not gotten such report (and there is a high probability that there will not be such report in the future too) </br> [YYang - GPD REP Statement](https://discord.com/channels/243411108940087297/950574522011119707/1077842038403379272)
-
-> These are the major issues that GPD is aware of and working on as of 02/19/2023: **right, and left trigger buttons have a bubble inside**,  and **The right stick and right trigger shaking issue**. </br> **BOTH OF THESE ISSUES HAVE BEEN SOLVED IN NEWER BATCHES** </br>
-[YYang - GPD REP Statement](https://discord.com/channels/243411108940087297/950574522011119707/1077046911888015361)
-
-> These are the major issues that GPD is aware of and working on as of 02/28/2023: **right trigger spring is stuck and/or make noises**,  and **the screen gap isn't symmetrical**. </br>
-[YYang - GPD REP Statement](https://discord.com/channels/243411108940087297/950574522011119707/1079597939699240970)
-
-> These are the major issues that GPD is aware of and working on as of 03/01/2023: **The screen gap isn't symmetrical, the left side gap is bigger**, **right trigger spring is stuck and/or make noises**,  and **Pixel point on screen**. </br>
-[Kendyz - GPD REP Statement](https://www.reddit.com/r/gpdwin/comments/11ex280/the_topic_collection/?utm_source=share&utm_medium=ios_app&utm_name=iossmf)
-
->  All these issues have been ironed out according to GPD for international orders. </br> **CHECK THEIR [SUBREDDIT](https://www.reddit.com/r/gpdwin/comments/11wc9ss/the_igg_shipping_is_starting/) AND [IGG](https://www.indiegogo.com/projects/gpd-win-4-smallest-6800u-handheld-console#/updates/all)**
-
-``` 🚨🚨 If there is a solution to any of these issues they will be under that issue! 🚨🚨 ``` </br>
-``` 🚨🚨 If GPD knows of solved those issues I will mentioned that next to the issue or it will be crossed out! 🚨🚨 ```
-
-#### Screen related issues
-* **~~Uneven screen~~** </br> So far it seen that GPD has improved the tolerance of the screen uneven-ness. So this will be less of an issue on newer batches </br> ![](https://cdn.discordapp.com/attachments/950574522011119707/1078522664861323304/image.png) </br> </br> ![](https://cdn.discordapp.com/attachments/950574522011119707/1076400368541511700/91CA6DD6-B862-4C0F-8695-165E98A45B36.jpg)
-* **~~Screen is showing artifacts or random pixels.~~** </br> The screen is showing some pixels? or some artifacts when you use the touchscreen. </br> [Reddit post](https://www.reddit.com/r/gpdwin/comments/11cpjdy/screen_corruption_hw_or_just_swdriversettings/) </br> [YYang - GPD REP Statement](https://discord.com/channels/243411108940087297/950574522011119707/1079599746810916924)  </br> GPD Already knows of the issue is working on fixing it. 
-* **~~The touch input is not the same as the register input.~~** </br> The screen is not inputting the right spot of where it was touch. You press in a area the but the input is register in a different area of the screen. </br> [reddit poost](https://www.reddit.com/r/gpdwin/comments/11bvgqc/saw_this_video_is_the_touchscreen_issue_a_hw_fw/) </br> [YYang - GPD REP statement](https://discord.com/channels/243411108940087297/950574522011119707/1079598944134365214) </br> GPD knows of this issue but don't know yet if it is hardware or software. And the reports are from a small amount of people. </br> THIS ISSUES SEEMS TO BE FIXED WITH THE NEWER DRIVERS. </br> [Discord message](https://discord.com/channels/243411108940087297/950574522011119707/1080676813510021271).
-
-#### Cosmetic related issues
-* **~~Left / right trigger have a bubble inside.~~** </br> FIXED ON NEWER BATCHES! </br> ![](https://cdn.discordapp.com/attachments/950574522011119707/1076776794650325002/image_editor_1676793804600.jpg)
-
-#### Other hardware issues
-* **~~SD Card slot might be too deep??~~** </br> Ejecting a SD card can be tricky because the card is too deep inside the pc to easily retrieved with finger. The user had to use a little stick to get it to eject. </br> IT SEEMS THIS WAS FIXED IN NEWER BATCHES. </br> [Discord Post](https://discord.com/channels/243411108940087297/950574522011119707/1080425585391714405)
-* **~~When sliding the screen the keyboard register a key press~~**. </br> GPD seem to be aware of the issue. As kendys a GPD Rep commented on the post. </br> [Reddit post](https://www.reddit.com/r/gpdwin/comments/11dr5hd/a_few_reports_of_the_o_key_getting_pressed_when/) 
-* **~~Analog stick rotates a little, Screen could make a tap sound, and mouse input not working as intented~~**. </br> GPD has updated the drivers for win 4 so that the mouse works as intended [message link](https://discord.com/channels/243411108940087297/950574522011119707/1080667865075687497), the stick rotation is to be expected according to GPD as the stick is removable, and GPD has improved QC so that the screen tap sound does not happen again. </br> [Reddit Post](https://www.reddit.com/r/gpdwin/comments/11d8gej/my_win4s_problem_round_2/)
-* **~~Compilation of most of the early issues in one video~~**. </br> MOST OF THESE ISSUES HAS BEEN FIXED IN NEWER BATCHES. </br> [Reddit Post](https://www.reddit.com/r/gpdwin/comments/116y8ww/domestic_beta_testers_working_hard_doing_qc_i/)
+**To see all the domistic issues [press here](win4domestic.md)**
     
 ### Installation
 > When installing the GPD Provided Windows image do not forget these steps: </br> 1. Format the USB Drive to NTFS. </br> 2. Rename the USB Drive to WINPE </br> 3. Extract the files to USB Drive
@@ -175,6 +172,14 @@ This is an set of instruction or checklist of sorts for me to follow once I get 
 ### Useful Information
 
 [GPD WIN4 Manual](Manuals/GPD_WIN4_User_Mannual.pdf)
+
+***Turning off the LED's on the WIN 4**
+ * Open the win controls app on the WIM4
+ * Go to "Mouse model customization"
+ * look for "status"
+ * Next to status there will be an "on" button press that to turn it off
+ ![](images/Wincontrols.gif)
+ 
 
 ***Booting from a USB Drive***
 * Hold Shift + FN + 7 
@@ -235,6 +240,10 @@ This is an set of instruction or checklist of sorts for me to follow once I get 
 * [Files](Color_Correction)
 
 * [GPD Color correction Video](https://www.youtube.com/watch?v=-QiW4Zqy-6E)
+
+### Adding more Screen refresh rates (40hz, 30hz, etc.)
+> Use this third party application
+[CRU](https://www.monitortests.com/forum/Thread-Custom-Resolution-Utility-CRU)
 
 ### TDP Tools
 > Gifs are from Sabrina's github as I do not have my Win4 yet :(
