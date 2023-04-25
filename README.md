@@ -87,21 +87,32 @@ This is an set of instruction or checklist of sorts for me to follow once I get 
 > The USB C test where perfomed with a TB cable, Crucial P3, and a NVME enclousure. USB A Test was perfomed with a regular  high-speed USB memory card. </br> This information could be useful when trying out different OS or seeing if an update broke something that should not have been broken.
 
 * Port speed's
-  * USB 4 type C - Top </br>
-   ![](images/baseline/USBC-BOTTOMSABRENT.png) </br>
-  * USB 3.2 type C -  Bottom </br>
-   ![](images/baseline/USBC-BOTTOMSABRENT.png) </br>
-  * USB 3.2 type A - Top </br>
-    ![](images/baseline/usbA-top.png) </br>
-* MicroSD Card speed </br>
-  ![](images/baseline/sdcardtest.png) </br>
-* SSD speed's </br>
-  * Biwin SSD </br> 
-    ![](images/baseline/biwintest.png) </br>
-  * Crucial P3 </br>
-    ![](images/baseline/crucialp3test.png) </br>
-  
+    <details>
+     <summary>USB 4 type C - Top</summary>
+     <img src="https://github.com/lertsoft/GPD_WIN4/blob/7846626665391f6815ac1b416c4e4805607dbee9/images/baseline/USB4-TOPSABRENT.png"> </details> 
 
+    <details>
+     <summary>USB 3.2 type C -  Bottom </summary>
+     <img src="https://github.com/lertsoft/GPD_WIN4/blob/7846626665391f6815ac1b416c4e4805607dbee9/images/baseline/USBC-BOTTOMSABRENT.png"> </details> 
+  
+    <details>
+     <summary>USB 3.2 type A -  Top </summary>
+     <img src="https://github.com/lertsoft/GPD_WIN4/blob/7846626665391f6815ac1b416c4e4805607dbee9/images/baseline/usbA-top.png"> </details> 
+  
+    <details>
+     <summary>MicroSD Card speed</summary>
+     <img src="https://github.com/lertsoft/GPD_WIN4/blob/7846626665391f6815ac1b416c4e4805607dbee9/images/baseline/sdcardtest.png"> </details> 
+     
+    <details>
+     <summary>Biwin SSD </summary>
+     <img src="https://github.com/lertsoft/GPD_WIN4/blob/7846626665391f6815ac1b416c4e4805607dbee9/images/baseline/biwintest.png"> </details> 
+     
+    <details>
+     <summary>Crucial p3 SSD</summary>
+     <img src="https://github.com/lertsoft/GPD_WIN4/blob/7846626665391f6815ac1b416c4e4805607dbee9/images/baseline/crucialp3test.png"> </details> 
+
+* Battery Life
+  ![](images/baseline/WIN4BatteryLife.png)
 
 
 **🚨🚨🚨🚨INTERNATIONAL SHIPMENT STARTED ON MONDAY 20/03/2023🚨🚨🚨🚨**
@@ -233,6 +244,16 @@ This is an set of instruction or checklist of sorts for me to follow once I get 
     b. [download link](https://github.com/lertsoft/GPD_WIN4/releases/tag/v1.10) </br>
     c. [WIN Controls Manual](Manuals/GPD_Win_Controls_Manual.pdf) </br>
 6. [Windows Debloating tool](https://christitus.com/windows-tool/) </br>
+
+### BIOS Files
+> Be careful using these files as they could cause issue if you do not know what you are doing!
+
+
+**[BIOS v3.00](https://github.com/lertsoft/GPD_WIN4/releases/tag/v3.00)** </br> This Version is has unlocked TDP, and Fan controls.
+
+**[BIOS v3.03](https://github.com/lertsoft/GPD_WIN4/releases/tag/v3.03)** </br> This version fixes some issues? I do not have a changelog for it but is the one my device was shipped with. It has the unresponsive touchscreen, and USB C ports issue.
+
+**[BIOS v3.04](https://github.com/lertsoft/GPD_WIN4/releases/tag/v3.04)** </br> This version fixes the unresponsive touchscreen, and USB C ports Issue. It is not a fixed for the hz and panel skipped frames.
 
 ### Screen Color Correction
 > These files were provided by GPD. See video description. </br>
