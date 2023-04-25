@@ -198,6 +198,7 @@ This is an set of instruction or checklist of sorts for me to follow once I get 
  </br>
 
 **Reducing the CPU Temps**
+> Charral Message: Gelid GP-Ultimate thermal pads sizes 1.5mm & 1mm work perfectly on the VRM’s with NT-H2 significantly reducing the CPU temps due to the original paste not being so fantastic.
 * Using this thermals pads, and repasting the WIN4 could reduce the temps from 79c to 67c, [see this message](https://discord.com/channels/243411108940087297/950574522011119707/1099991883847049246)
 * [Pads](https://www.amazon.com/dp/B0922H1V6V?th=1)
 * [Paste](https://www.amazon.com/Noctua-NT-H2-Thermal-Cleaning-Performance/dp/B07MZ45X9G/)
