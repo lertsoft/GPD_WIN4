@@ -184,17 +184,24 @@ This is an set of instruction or checklist of sorts for me to follow once I get 
 
 [GPD WIN4 Manual](Manuals/GPD_WIN4_User_Mannual.pdf)
 
+***Booting from a USB Drive***
+* Hold Shift + FN + 7 
+</br>
+
 ***Turning off the LED's on the WIN 4**
  * Open the win controls app on the WIM4
  * Go to "Mouse model customization"
  * look for "status"
  * Next to status there will be an "on" button press that to turn it off
+ ![](images/WINCO.jpg)
  ![](images/Wincontrols.gif)
- 
+ </br>
 
-***Booting from a USB Drive***
-* Hold Shift + FN + 7 
-</br>
+**Reducing the CPU Temps**
+* Using this thermals pads, and repasting the WIN4 could reduce the temps from 79c to 67c, [see this message](https://discord.com/channels/243411108940087297/950574522011119707/1099991883847049246)
+* [Pads](https://www.amazon.com/dp/B0922H1V6V?th=1)
+* [Paste](https://www.amazon.com/Noctua-NT-H2-Thermal-Cleaning-Performance/dp/B07MZ45X9G/)
+* [PTM7950](https://www.moddiy.com/products/Honeywell-PTM7950-SP-Super-Highly-Thermally-Conductive-PCM-Pad.html)
 
 ***Use Custom Resolution Utility (CRU) to create different screen refresh rate ie. 40hz***
 > GPD took away the option of 40hz on the WIN4 panel because of frame skipping, and stability. CRU allows you to create that refresh rate and use.
