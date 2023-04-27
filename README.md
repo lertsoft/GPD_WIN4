@@ -254,8 +254,15 @@ This is an set of instruction or checklist of sorts for me to follow once I get 
 6. [Windows Debloating tool](https://christitus.com/windows-tool/) </br>
 
 ### BIOS Files
-> Be careful using these files as they could cause issue if you do not know what you are doing!
+> 🚨🚨Be careful using these files as they could cause issue if you do not know what you are doing!🚨🚨
 
+**Make sure that during the upgrading or downgrading your device is charging or atleast at 100% battery**
+
+ * To downgrade the Bios follow these steps: </br> 
+   > 1. Format a USB Drive to FAT32. </br> 2. Copy the files to the ROOT of the USB drive. <br> 3. Use FN + F7 to boot using the USB. </br> 4. Wait </br>     5. When all the lights are off, turn the device back on. </br> 6. Wait. If it doesn't boot after 10min, reset the BIOS using the PIN hole </br> 7. Wait. </br> 8. After 10 to 20min it should be downgraded.
+
+  * To upgrade the bios is pretty similar to the downgrade process. Also GPD provided a little guide, here are the steps: </br>
+    > 1. Format a USB drive to FAT32. </br> 2. Copy the files to the ROOT of the USB drive. </br> 3. Press FN + F7 to boot boot using the USB. </br> 4.         Select the USB drive. </br> 5. Wait. </br> 6. Wait. If it doesn't boot after 10min, reset the BIOS using the PIN hole. </br> 7. Now it should be      upgraded.
 
 **[BIOS v3.00](https://github.com/lertsoft/GPD_WIN4/releases/tag/v3.00)** </br> This Version is has unlocked TDP, and Fan controls.
 
