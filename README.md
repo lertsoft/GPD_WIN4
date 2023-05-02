@@ -125,7 +125,9 @@ This is an set of instruction or checklist of sorts for me to follow once I get 
 
 * **The touchscreen stops responding after a couple of hours of use.** </br> This issue since to be affecting all units using the bios 3.0.3 which is the one used for almost all of the 16gb ram models. My unit is affected by it but I am not planning on updating the bios yet.  [](https://gpd.hk/gpdwin4firmwaredriver) [](https://drive.google.com/file/d/1Er7Oo7Rct03LfHotQ3lzOnHNEACnCe7_/view)
 
-* **The screen have sync problems and/or jitters** </br> This issue for what have been talked about on discord affect everyone unless someone show prove otherwise because review units from december are affected by this... GPD seems to be working on a fix but so far it seems that the problem is being caused by the Chip that turns the screen from portrait to landscape. If you would like to test your unit to see if it is affected or just curious to know how to test for this try this [site](https://www.testufo.com/mprt) and focus your eyes on the on the UFO (subject). Also this issue is mentioned that it is most noticeble on 2d games.
+* **The screen have sync problems and/or jitters** </br> This issue for what have been talked about on discord affect everyone unless someone show prove otherwise because review units from december are affected by this... GPD seems to be working on a fix but so far it seems that the problem is being caused by the Chip that turns the screen from portrait to landscape. If you would like to test your unit to see if it is affected or just curious to know how to test for this try this [site](https://www.testufo.com/mprt) and focus your eyes on the on the UFO (subject). Also this issue is mentioned that it is most noticeble on 2d games. </br> 
+  * Work-around for the sync problems using CRU: </br> ![](https://cdn.discordapp.com/attachments/950574522011119707/1101014913951998133/image.png) </br> Thanks to G-Cat / Bill for finding this work-around. </br> </br>
+  *  **GPD official fix** </br> 🚨🚨 NOTE! IT IS HIGHLY UNLIKELY YOU WILL BRICK THE DEVICE WITH THIS METHOD AS DEMONSTRATED BY [N1ckn4m3](https://discord.com/channels/243411108940087297/950574522011119707/1102592791206436945) COUNTLESS QUILITY ASSURANCE TESTS🚨🚨 </br> These are the files and guide needed: [Files](https://github.com/lertsoft/GPD_WIN4/releases/tag/60-hz) </br> [Guide created by e1000 (Community member)](https://docs.google.com/document/d/1KVFI7zn1XTZnpUldCw3RhRy64FLF5FaSaepIormMh0w/mobilebasic) </br> Where the IC connection pins are located: </br> ![](https://cdn.discordapp.com/attachments/950574522011119707/1101364838866878555/image.png)
 
 * **
 
@@ -270,6 +272,8 @@ This is an set of instruction or checklist of sorts for me to follow once I get 
 
 **[BIOS v3.04](https://github.com/lertsoft/GPD_WIN4/releases/tag/v3.04)** </br> This version fixes the unresponsive touchscreen, and USB C ports Issue. It is not a fixed for the hz and panel skipped frames.
 
+**[BIOS v3.05](https://github.com/lertsoft/GPD_WIN4/releases/tag/v3.05)** </br> This version fixes the unresponsive touchscreen, and USB C ports Issue just as 3.04. It also fixes the issue that 3.04 introduced of not outputting video from the USB-C ports. It is not a fixed for the hz and panel skipped frames.
+
 ### Screen Color Correction
 > These files were provided by GPD. See video description. </br>
 
@@ -284,7 +288,19 @@ This is an set of instruction or checklist of sorts for me to follow once I get 
 ### TDP Tools
 > Gifs are from Sabrina's github as I do not have my Win4 yet :(
 
+Out of all the TDP Tools I would ask myself any of these questions before deciding: </br>
+* Do I want to Tinker and be in charge of every detail? Choose [Ciphray.bat](https://discord.com/channels/243411108940087297/1065818597844340777/1076236291705946182)
+* Do I want some control but not so much granularity? Choose [Motion Assistant](https://github.com/lertsoft/GPD_WIN4/releases/tag/v1.1.60) </br>
+  * Could also choose Power Control Panel v3, Which has not launched yet! but check this repo for [v2](https://github.com/project-sbc/Power-Control-Panel-v2 </br>)
+* Do I want the program to just do everything for me and I just choose the max TDP? Choose [SmarterTDP](https://github.com/BillPlus/SmarterTDP) 
+
+Hopefully this helps you decide too. </br>
+Also give them all a try as you might find some more intuitive than other or you might find some exoteric function that you didn't know was possible.
+
 #### Motion Assistant
+Motion Assistant is so much more than just a TDP Tool. It has fan controls, Gyro settings, Hotkeys, and framerate limit. </br> 
+Best for people who want an all in one solution.
+
 a. [Original Source](https://gpd.hk/gpdwin4firmwaredriver) </br>
 b. [download link](https://github.com/lertsoft/GPD_WIN4/releases/tag/v1.1.60) </br>
 c. [Motion Asisstant Manual](Manuals/Motion_Assitant_manual.pdf) </br>
@@ -292,12 +308,16 @@ d. [Motion Assistant setup and benefits](https://www.youtube.com/watch?v=M3NNxC-
 
 ![](https://user-images.githubusercontent.com/74781086/206900788-e8e89c61-833b-4507-871c-33496eb228d1.gif)
 
+#### [SmarterTDP](https://github.com/BillPlus/SmarterTDP)
+SmarterTDP is an awesome solution that manages only TDP but it does a great job at that! Perfect is you want a simple, one click TDP solution to set it and forget it but that will adapt to your device needs.
+
 #### [Ciphray.bat](https://discord.com/channels/243411108940087297/1065818597844340777/1076236291705946182)
+Ciphray.bat has a high learning curve but the amount of controls and granurality that you get from it is amazing. If you love to tinker or maybe learn more about all the different settings, nuts and bolts to put something unique to your needs this will be it.
 a. The phawk made a video explaning how to set this bat boy up 6800U devices. [LINK](https://www.youtube.com/watch?v=ZnEQ068poY0)
 
 ![](https://user-images.githubusercontent.com/74781086/206900455-b058a29e-f4ae-438d-b444-5b2dcbcfa981.png)
 
-#### Power Control Panel v2
+#### Power Control Panel v2 **TBD**
 > PCP Devs are working on a new version that will add more TDP features
 
 Control and change the TDP of the compatible devices.</br>
@@ -408,6 +428,10 @@ AquaKlef </br>
 Batteries from GPD AliExpress store.</br>
 https://www.aliexpress.us/item/3256802595312541.html?gatewayAdapt=Pc2Msite </br>
 https://www.aliexpress.us/item/3256803076020665.html?gatewayAdapt=Pc2Msite </br>
+
+GPD WIN4 Skins. </br> 
+https://sopiguard.com/collections/gaming-1/products/for-gpd-win-4?variant=45034656334125 
+</br>
 
 GPD Win 3 replacement Joystick by [Dovah](https://www.thingiverse.com/dovahkiiiin/designs)</br>
 Someone said on discord that the Joystick for the win 3 and win 4 are the same but I will update once the retail unit starts arriving in peoples hands. </br>
