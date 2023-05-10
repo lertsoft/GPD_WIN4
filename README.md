@@ -176,7 +176,7 @@ This is an set of instruction or checklist of sorts for me to follow once I get 
      <details>
      <summary>Steam OS</summary>
      1.    <a href="https://store.steampowered.com/steamos/buildyourown">Download steamOS official ISO</a> </br>
-     2. TBD - Once I receive my unit I will populate this
+     2. I tried SteamOS / HoloISO and the experience was lacking for now so I will use other distros. Will give chimeraOS a try and update here.
     
     </details>
     
@@ -317,13 +317,19 @@ a. The phawk made a video explaning how to set this bat boy up 6800U devices. [L
 
 ![](https://user-images.githubusercontent.com/74781086/206900455-b058a29e-f4ae-438d-b444-5b2dcbcfa981.png)
 
-#### Power Control Panel v2 **TBD**
+#### Handheld Control Panel
+> Project SBC is working on adding and solving as many of the pain points that handheld user have with this software!
+
+Manage, Control and change the TDP and other settings of the compatible devices.</br>
+https://github.com/project-sbc/Handheld-Control-Panel </br>
+
+#### ~Power Control Panel v2 DISCONTINUED~
 > PCP Devs are working on a new version that will add more TDP features
 
 Control and change the TDP of the compatible devices.</br>
 https://github.com/project-sbc/Power-Control-Panel-v2 </br>
 
-![](https://user-images.githubusercontent.com/74781086/206900406-57df3589-3ee1-47e6-a303-9cdc6c9552c1.png)
+[](https://user-images.githubusercontent.com/74781086/206900406-57df3589-3ee1-47e6-a303-9cdc6c9552c1.png)
 
 #### Handheld Companion
 Use cases taken from the Handheld companion repo:
