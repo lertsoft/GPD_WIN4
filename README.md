@@ -212,6 +212,22 @@ This is an set of instruction or checklist of sorts for me to follow once I get 
 [Download Link](https://www.monitortests.com/forum/Thread-Custom-Resolution-Utility-CRU)
 </br>
 
+***Setting Up RSR***
+> RSR is AMD solution to AI upscaling, similar to FSR but instead of it being game dependant it is game independant as it upscales at a driver level and not a application/game level.
+
+1. Install AMD Adrenalin
+2. Go to Settings > Graphics
+3. Enable Radeon Super Resolution (RSR)
+4. Choose your sharpen effect - 50 to 75 is best. </br> </br>
+    ![](images/RSR1.png) </br>
+5. Now navigate to hotkeys - Settings > Hotkeys
+6. Enable use Hotkeys
+  a. This is so that you can see an overlay of AMD Adrenalin in game to make sure that it is working.
+7. Now you are all set. RSR is enable for all games.
+8. Test that it works by lowering your game resolution to for example; 1280 by 720
+9. Open the overlay using the hotkeys - The default is ALT+R and you will see something like this. </br> </br>
+![](images/RSREnabled.jpg) </br>
+
 ***Changing the iGPU vRAM allocation***
 > Note: The ram on the GPD Win 4 is shared meaning that the 16GB or 32GB of RAM of the device will go to both the CPU and GPU which could hamper performance of the devices depending on the configuration. The recommended amount of vRAM is 4GB for the 16GB RAM model, and 8GB for the 32GB RAM model.
 
@@ -234,6 +250,30 @@ This is an set of instruction or checklist of sorts for me to follow once I get 
 
 ![Shadow of the Tomb Raider](https://github.com/lertsoft/GPD_WIN4/blob/0374d83c747fbcd464f696301f024df4ed26fbd5/images/SOTTR-32APU%20Share%20memory%20perfomance.png)
 
+***Setting up Gyro on Motion Assistant***
+
+1. Open MotionAssistant.
+2. Click the checkbox for Gyro Simulate. </br>
+    a. It will ask you to install a driver from Nefarius Software Solutions. Don't worry Nefarius is a Open-Source Dev [Check his/her work here](https://github.com/ViGEm/ViGEmBus) </br></br>
+   ![](images/NefariusSoftware.jpg) </br>
+3. Install the program (HIDHide) like you normally would.
+4. Now, Go to c: > Program Files > Motion Assistant > Drivers
+5. Install all the drivers on this folder. </br>
+  a. Do not go online and install newer versions of them as that could mean that Gyro will not work. Motion Assistant needs the versions it is providing.
+6. Go to gyro Simulate tab. </br>
+    a. pick Xbox360 for now. </br> </br>
+  ![](images/MotionAssistant_230512_225816.png) </br>
+8. Search for hidhide on windows search.
+9. Check these checkboxes: </br>
+    a. Controller (Game for Windows). </br>
+    b. Enable device hiding. </br> </br>
+    ![](images/HidHideClient.png) </br>
+10. Search for Joy.cpl to make sure that the non-gyro controller is hiding.
+11. Use joy.cpl to Test that it is working.
+12. Check on device manager to see if there is more than one controller.
+14. We are done!
+
+> PS; I am not able to use the gyro controller on steam games because for some reason I have two controllers recognized and the one that Steam is using had to be the non-gyro one. :/ </br> I will continue this guide on the [troubleshooting area](#troubleshooting)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -291,7 +331,7 @@ This is an set of instruction or checklist of sorts for me to follow once I get 
 Out of all the TDP Tools I would ask myself any of these questions before deciding: </br>
 * Do I want to Tinker and be in charge of every detail? Choose [Ciphray.bat](https://discord.com/channels/243411108940087297/1065818597844340777/1076236291705946182)
 * Do I want some control but not so much granularity? Choose [Motion Assistant](https://github.com/lertsoft/GPD_WIN4/releases/tag/v1.1.60) </br>
-  * Could also choose Power Control Panel v3, Which has not launched yet! but check this repo for [v2](https://github.com/project-sbc/Power-Control-Panel-v2 </br>)
+  * Could also choose Handheld Control Panel, Which has not launched yet! but check this repo for [HCP](https://github.com/project-sbc/Handheld-Control-Panel) </br>
 * Do I want the program to just do everything for me and I just choose the max TDP? Choose [SmarterTDP](https://github.com/BillPlus/SmarterTDP) 
 
 Hopefully this helps you decide too. </br>
@@ -323,8 +363,8 @@ a. The phawk made a video explaning how to set this bat boy up 6800U devices. [L
 Manage, Control and change the TDP and other settings of the compatible devices.</br>
 https://github.com/project-sbc/Handheld-Control-Panel </br>
 
-#### ~Power Control Panel v2 DISCONTINUED~
-> PCP Devs are working on a new version that will add more TDP features
+#### ~Power Control Panel v2~ DISCONTINUED
+> Project SBC the Devs of Power Control Panel V2 (PCP V2) have move all the new features and developement to a new project called Handheld Control Panel (HCP) and are working on a new version that will add more TDP features. If interested Please see above  ⬆️⬆️⬆️ </br> </br> I will keep this info here so that people looking for PCPV2 know of the new software.
 
 Control and change the TDP of the compatible devices.</br>
 https://github.com/project-sbc/Power-Control-Panel-v2 </br>
@@ -354,6 +394,9 @@ https://www.passmark.com/products/performancetest/index.php
 
 <!-- TROUBLESHOOTING -->
 ## Troubleshooting
+
+- **Gyro is not work :(** </br>
+  > Now 
 
 - **USB A speeds are not as advertised** </br>
    > If after testing your USB A port your speeds are not up to the standard of USB 3.2 and your device has speeds close to USB 2 than 3 then this could be a temporary solution / workaround. Thanks to **DesignGears** on Discord [Message Link](https://discord.com/channels/243411108940087297/950574522011119707/1086042020528787566) :) 
