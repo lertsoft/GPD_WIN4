@@ -38,7 +38,7 @@
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an set of instruction or checklist of sorts for me to follow once I get my device. I will do two different ones because I will be doing a fresh install of windows on a new SSD, and the included SSD will be left for trouble-shooting.
+This is an set of instruction or checklist of sorts for me to follow.
 
 > for those of us that would love to 3D print some accesories. </br>
 ***[3D model file](https://github.com/lertsoft/GPD_WIN4/releases/tag/v0.1.1-3DModel)*** </br>
@@ -83,7 +83,7 @@ This is an set of instruction or checklist of sorts for me to follow once I get 
 </br>
 
 ### Baseline Test results
-> All this test were done on battery, with a stock device. Not a fresh install of windows. </br>
+> All these tests were done on battery, with a stock device. Not a fresh install of windows. </br>
 > The USB C test where perfomed with a TB cable, Crucial P3, and a NVME enclousure. USB A Test was perfomed with a regular  high-speed USB memory card. </br> This information could be useful when trying out different OS or seeing if an update broke something that should not have been broken.
 
 * Port speed's
@@ -169,7 +169,7 @@ This is an set of instruction or checklist of sorts for me to follow once I get 
      <summary>SteamDeck OS - Recovery Image</summary>
      1.    <a href="https://help.steampowered.com/en/faqs/view/1B71-EDF2-EB6D-2BB3">Download the steamdeck OS recovery image from valve</a> </br>
      2.    <a href="https://gist.github.com/drraccoony/8a8d0a9e3dfde9fafd3e374e418d2935#setting-expectations">This gist has all the needed information</a> </br>
-     3. TBD - I will follow these steps once I receive my Win4
+     3. Instead of using the Steamdeck image I used my another distro Image, and added the steamdeck UI. Not the same but less painful to install for dual boot.
     
     </details>
     
@@ -286,10 +286,10 @@ This is an set of instruction or checklist of sorts for me to follow once I get 
 3. [GPD Windows 11 22H2](https://gpd.hk/gpdwin4firmwaredriver)
 4. Motion Assistant <br>
     a. [Original Source](https://gpd.hk/gpdwin4firmwaredriver) </br>
-    b. [download link](https://github.com/lertsoft/GPD_WIN4/releases/tag/v1.1.60) </br>
+    b. [download link](https://github.com/lertsoft/GPD_WIN4/releases/tag/v1.1.62) </br>
     c. [Motion Asisstant Manual](Manuals/Motion_Assitant_manual.pdf) </br>
-    d. [Motion Assistant setup and benefits](https://www.youtube.com/watch?v=M3NNxC-BYQs)
-    e..[Motion Assistant doesn't start after clean Windows 11 install fix - just install Microsoft Visual C++ 2015 - 2022 Redistributable](https://aka.ms/vs/17/release/vc_redist.x64.exe)</br>
+    d. [Motion Assistant setup and benefits](https://www.youtube.com/watch?v=M3NNxC-BYQs) </br>
+    e..[Motion Assistant doesn't start after clean Windows 11 install fix - just install Microsoft Visual C++ 2015 - 2022 Redistributable](https://aka.ms/vs/17/release/vc_redist.x64.exe) </br>
 5. WIN Control <br>
     a. [Original Source](https://gpd.hk/gpdwin4firmwaredriver) </br>
     b. [download link](https://github.com/lertsoft/GPD_WIN4/releases/tag/v1.10) </br>
@@ -309,7 +309,7 @@ This is an set of instruction or checklist of sorts for me to follow once I get 
 
 **[BIOS v3.00](https://github.com/lertsoft/GPD_WIN4/releases/tag/v3.00)** </br> This Version is has unlocked TDP, and Fan controls.
 
-**[BIOS v3.03](https://github.com/lertsoft/GPD_WIN4/releases/tag/v3.03)** </br> This version fixes some issues? I do not have a changelog for it but is the one my device was shipped with. It has the unresponsive touchscreen, and USB C ports issue.
+**[BIOS v3.03](https://github.com/lertsoft/GPD_WIN4/releases/tag/v3.03)** </br> This version fixes some issues? I do not have a changelog for it but is the one my device was shipped with. It has the unresponsive touchscreen, The volume buttons should work on linux, and has USB C port issue.
 
 **[BIOS v3.04](https://github.com/lertsoft/GPD_WIN4/releases/tag/v3.04)** </br> This version fixes the unresponsive touchscreen, and USB C ports Issue. It is not a fixed for the hz and panel skipped frames.
 
@@ -327,11 +327,11 @@ This is an set of instruction or checklist of sorts for me to follow once I get 
 [CRU](https://www.monitortests.com/forum/Thread-Custom-Resolution-Utility-CRU)
 
 ### TDP Tools
-> Gifs are from Sabrina's github as I do not have my Win4 yet :(
+> Gifs are from Sabrina's github.
 
 Out of all the TDP Tools I would ask myself any of these questions before deciding: </br>
 * Do I want to Tinker and be in charge of every detail? Choose [Ciphray.bat](https://discord.com/channels/243411108940087297/1065818597844340777/1076236291705946182)
-* Do I want some control but not so much granularity? Choose [Motion Assistant](https://github.com/lertsoft/GPD_WIN4/releases/tag/v1.1.60) </br>
+* Do I want some control but not so much granularity? Choose [Motion Assistant](https://github.com/lertsoft/GPD_WIN4/releases/tag/v1.1.62) </br>
   * Could also choose Handheld Control Panel, Which has not launched yet! but check this repo for [HCP](https://github.com/project-sbc/Handheld-Control-Panel) </br>
 * Do I want the program to just do everything for me and I just choose the max TDP? Choose [SmarterTDP](https://github.com/BillPlus/SmarterTDP) 
 
@@ -343,7 +343,7 @@ Motion Assistant is so much more than just a TDP Tool. It has fan controls, Gyro
 Best for people who want an all in one solution.
 
 a. [Original Source](https://gpd.hk/gpdwin4firmwaredriver) </br>
-b. [download link](https://github.com/lertsoft/GPD_WIN4/releases/tag/v1.1.60) </br>
+b. [download link](https://github.com/lertsoft/GPD_WIN4/releases/tag/v1.1.62) </br>
 c. [Motion Asisstant Manual](Manuals/Motion_Assitant_manual.pdf) </br>
 d. [Motion Assistant setup and benefits](https://www.youtube.com/watch?v=M3NNxC-BYQs) </br>
 
@@ -396,8 +396,8 @@ https://www.passmark.com/products/performancetest/index.php
 <!-- TROUBLESHOOTING -->
 ## Troubleshooting
 
-- **Gyro is not work :(** </br>
-  > Now 
+- **Gyro is not working :(** </br>
+  > For some reason HIDHIDE is not hidding the one of the controllers to steam, and to the OS. So I still get two different controllers running on my Device manager.
 
 - **USB A speeds are not as advertised** </br>
    > If after testing your USB A port your speeds are not up to the standard of USB 3.2 and your device has speeds close to USB 2 than 3 then this could be a temporary solution / workaround. Thanks to **DesignGears** on Discord [Message Link](https://discord.com/channels/243411108940087297/950574522011119707/1086042020528787566) :) 
@@ -475,6 +475,10 @@ AquaKlef </br>
 <!-- ACCESORIES AND REPAIR PARTS -->
 ## Accesories & Parts
 
+GPD Win 4 Thumbstick Protector </br> 
+I love this protector. The actually do what I wanted them to do which is prevent the click of the sticks when on my backpack. They are better and easier to use than the Linus Tech Tips silicone covers, and you get the option of also being able to get one that allows for protection when using a Skull & Co Thumb grip.</br>
+https://www.etsy.com/listing/1468795898/gpd-win-4-thumbstick-protectorcover?ref=yr_purchases
+
 Batteries from GPD AliExpress store.</br>
 https://www.aliexpress.us/item/3256802595312541.html?gatewayAdapt=Pc2Msite </br>
 https://www.aliexpress.us/item/3256803076020665.html?gatewayAdapt=Pc2Msite </br>
@@ -526,8 +530,6 @@ Don't forget to give the project a star! Thanks again!
 
 <!-- CONTACT -->
 ## Contact
-
-Ronny Coste - [@costeronny](https://twitter.com/costeronny)
 
 Project Link: [https://github.com/lertsoft/GPD_WIN4](https://github.com/lertsoft/GPD_WIN4)
 
