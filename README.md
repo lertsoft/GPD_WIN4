@@ -289,6 +289,7 @@ This is an set of instruction or checklist of sorts for me to follow once I get 
     b. [download link](https://github.com/lertsoft/GPD_WIN4/releases/tag/v1.1.60) </br>
     c. [Motion Asisstant Manual](Manuals/Motion_Assitant_manual.pdf) </br>
     d. [Motion Assistant setup and benefits](https://www.youtube.com/watch?v=M3NNxC-BYQs)
+    e..[Motion Assistant doesn't start after clean Windows 11 install fix - just install Microsoft Visual C++ 2015 - 2022 Redistributable](https://aka.ms/vs/17/release/vc_redist.x64.exe)</br>
 5. WIN Control <br>
     a. [Original Source](https://gpd.hk/gpdwin4firmwaredriver) </br>
     b. [download link](https://github.com/lertsoft/GPD_WIN4/releases/tag/v1.10) </br>
