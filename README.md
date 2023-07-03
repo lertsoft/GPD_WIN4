@@ -114,12 +114,8 @@ This is an set of instruction or checklist of sorts for me to follow.
 * Battery Life
   ![](images/baseline/WIN4BatteryLife.png)
 
-
-**🚨🚨🚨🚨INTERNATIONAL SHIPMENT STARTED ON MONDAY 20/03/2023🚨🚨🚨🚨**
-
 ### Known Issues
 
-**🚨🚨🚨🚨ALL THIS ISSUES REPORTS ARE FROM IGG CUSTOMERS IE, INTERNATIONAL🚨🚨🚨🚨** </BR>
 #### Screen related issues 
 * **The touch input is not the same as the register input. </br> This issue could have been cause because of the use of the DriverEasy app** </br> After a fresh installation the screen is not inputting the right spot of where it was touch. You press in a area the but the input is register in a different area of the screen. [Discord Message](https://discord.com/channels/243411108940087297/950574522011119707/1090985629095034971) </br> [To fix this issue install this driver](https://drive.google.com/file/d/1oTt9tUKAQH48GG91fywMVi0p9U5wdfoY/view?usp=share%5C_link) </br> For More information on this issue [check this reddit post](https://www.reddit.com/r/gpdwin/comments/124lfe2/trouble_with_touch_calibration_gpd_win_4/) </br> [Discord message confirmation from Fulbringer of this working](https://discord.com/channels/243411108940087297/950574522011119707/1090986774660120706).
 
@@ -185,6 +181,13 @@ This is an set of instruction or checklist of sorts for me to follow.
 ### Useful Information
 
 [GPD WIN4 Manual](Manuals/GPD_WIN4_User_Mannual.pdf)
+
+**WIN 4 keeps asking for bitlocker recovery key**
+* Cause: Windows boot menu getting into a fight with the W?IN 4's TPM implementation and triggering a false "suspicious activity" that cause windows to prompt for the key.
+* Solution: disable the "new and improved" boot menu on your encrypted volume using `bcdedit /set default bootmenupolicy legacy`
+
+> Once this is done the system can resume after sleep, hibernate, and shutdown without prompting for a bitlocker recovery key.
+Thanks  to [mouseish](https://discord.com/channels/243411108940087297/950574522011119707/1125430298407088128) for the tipbit!
 
 ***Booting from a USB Drive***
 * Hold Shift + FN + 7 
@@ -314,6 +317,8 @@ This is an set of instruction or checklist of sorts for me to follow.
 **[BIOS v3.04](https://github.com/lertsoft/GPD_WIN4/releases/tag/v3.04)** </br> This version fixes the unresponsive touchscreen, and USB C ports Issue. It is not a fixed for the hz and panel skipped frames.
 
 **[BIOS v3.05](https://github.com/lertsoft/GPD_WIN4/releases/tag/v3.05)** </br> This version fixes the unresponsive touchscreen, and USB C ports Issue just as 3.04. It also fixes the issue that 3.04 introduced of not outputting video from the USB-C ports. It is not a fixed for the hz and panel skipped frames.
+
+**[BIOS v3.06](https://github.com/lertsoft/GPD_WIN4/releases/tag/v3.06)** </br> This version should fix the WIN4 volume buttons not working when waking up from sleep in Linux, Fixes the problem where the USB-C port at the bottom does not display in v3.04, It resolves some issues where the device may crash under abnormal conditions, Additionally, it adds support for screen firmware updates by providing a screen firmware upgrade interface by updating the EC to version 8.0 from version 7.8.
 
 ### Screen Color Correction
 > These files were provided by GPD. See video description. </br>
@@ -459,6 +464,7 @@ https://www.passmark.com/products/performancetest/index.php
 The Phawx </br>
 - Setting up Motion Assistant on the WIN4. [LINK](https://www.youtube.com/watch?v=WWkmyAxn6-E) </br>
 - Setting up Auto TDP tool on 6800U devices. [LINK](https://www.youtube.com/watch?v=ZnEQ068poY0)
+- Comparison between Z1, 6800u, 7840um, and steam deck APU. [LINK](https://www.youtube.com/watch?v=BOMiEI7ojd8&t=881s)
 
 TheRelaxingEnd </br>
 - ASMR Video of the GPD Win 4. [LINK](https://www.youtube.com/watch?v=livIIS8MYe0)
@@ -503,16 +509,15 @@ These are some of them.
 * WD Black SN770
 * Crucial P3
 
-#### GPD Win 4 Specs
->Turn off dark mode to see the image better
+> Really good video by The phawk packed with info, benches, and comparison between Z1, 6800u, 7840um, and steam deck APU. [LINK](https://www.youtube.com/watch?v=BOMiEI7ojd8&t=881s)
+
+#### GPD WIN 4 Specs
+> Specs for the Orginal WIN 4 with 6800u
 
 ![GPD Win4](images/GPD_Win4_Specs.png)
 
-#### Comparison between the AMD 6800U and The AMD 7735 APU's. </br>
+> Specs for WIN 4 Refresh with 7840u, and 7640U
 
-> This is for future reference for peeps figuring out which APU is better.
-
-![AMD6800U VS AMD7735](images/AMD6800U_VS_AMD7735.png) </br>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
