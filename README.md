@@ -494,6 +494,10 @@ GPD WIN4 Skins. </br>
 https://sopiguard.com/collections/gaming-1/products/for-gpd-win-4?variant=45034656334125 
 </br>
 
+GPD WIN4 Deckmate compatible clip-on back. </br> 
+https://www.thingiverse.com/thing:6100878
+</br>
+
 GPD Win 3 replacement Joystick by [Dovah](https://www.thingiverse.com/dovahkiiiin/designs)</br>
 Someone said on Discord that the Joystick for Win 3 and Win 4 are the same but I will update once the retail unit starts arriving in people's hands. </br>
 https://www.thingiverse.com/thing:5100417
