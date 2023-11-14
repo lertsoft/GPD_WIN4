@@ -19,6 +19,8 @@
     <li>
       <a href="#drivers--applications">Drivers & Applications</a>
       <ul>
+        <li><a href="#6800u-specific">6800u specific</a></li>
+        <li><a href="#76040u-and-7840u-specific">7640u & 7840u specific</a></li>
         <li><a href="#motion-assistant">Motion Assistant</a></li>
         <li><a href="#screen-color-correction">Screen Color Correction</a></li>
         <li><a href="#tdp-tools">TDP Tools</a></li>
@@ -40,7 +42,7 @@
 
 This is a set of instructions or checklists of sorts for me to follow. This repo is focused mostly on the 6800U variant of the WIN 4 but most of the information should be relevant for the refrash. ALL BIOS Files are for the 6800U WIN 4.
 
-> for those of us that would love to 3D print some accessories. </br>
+> for those of us who would love to 3D print some accessories. </br>
 ***[3D model file](https://github.com/lertsoft/GPD_WIN4/releases/tag/v0.1.1-3DModel)*** </br>
 ***[Shoulder Buttons - L & R](https://github.com/lertsoft/GPD_WIN4/releases/tag/v0.1.1-3DModel)*** </br>
 ***[Trigger Buttons](https://github.com/lertsoft/GPD_WIN4/releases/tag/v0.1.1-3DModel)*** </br>
@@ -49,7 +51,7 @@ This is a set of instructions or checklists of sorts for me to follow. This repo
 **🚨🚨WARNING!🚨🚨 PLEASE IF YOU PLAN ON DOING A FRESH INSTALL I WOULD SUGGEST NOT USING APPS SUCH AS DRIVEREASY, OR CCLEANER AS THOSE APPS WILL FIND THE LATEST DRIVERS BUT THOSE DRIVERS COULD BE FOR A COMPLETELY DIFFERENT DEVICE, SUCH AS AYANEO WHICH HAS A PORTRAIT SCREEN, AND COULD CAUSE SCREEN ISSUES!  [THANKS TO N1CKN4M3 FOR BRINGING THIS POINT](https://discord.com/channels/243411108940087297/950574522011119707/1090989111642423306)🚨🚨**
 
 ### Test your Hardware 
-1. Test GPU under load, look for black screens. (Use graphically intensive software. ie. AAA games, 3dmark, photoshop, etc.)
+1. Test GPU under load, look for black screens. (Use graphically intensive software. ie. AAA games, 3Dmark, photoshop, etc.)
     * [🚨🚨 GPU STRESS TEST SOFTWARE 🚨🚨](https://geeks3d.com/furmark/)
 2. Check the bios version (Only update if necessary, see #1 ^^ Above ^^)
 3. Test all keyboard keys and buttons.
@@ -306,20 +308,36 @@ Thanks  to [mouseish](https://discord.com/channels/243411108940087297/9505745220
 **Make sure that during the upgrading or downgrading your device is charging or at least at 100% battery**
 
  * To downgrade the Bios follow these steps: </br> 
-   > 1. Format a USB Drive to FAT32. </br> 2. Copy the files to the ROOT of the USB drive. <br> 3. Use FN + F7 to boot using the USB. </br> 4. Wait </br>     5. When all the lights are off, turn the device back on. </br> 6. Wait. If it doesn't boot after 10min, reset the BIOS using the PIN hole </br> 7. Wait. </br> 8. After 10 to 20min, it should be downgraded.
+   > 1. Format a USB Drive to FAT32. </br> 2. Copy the files to the ROOT of the USB drive. <br> 3. Use FN + F7 to boot using the USB. </br> 4. Wait </br>     5. When all the lights are off, turn the device back on. </br> 6. Wait. If it doesn't boot after 10 minutes, reset the BIOS using the PIN hole </br> 7. Wait. </br> 8. After 10 to 20 minutes, it should be downgraded.
 
-  * To upgrade the bios is pretty similar to the downgrade process. Also, GPD provided a little guide, here are the steps: </br>
-    > 1. Format a USB drive to FAT32. </br> 2. Copy the files to the ROOT of the USB drive. </br> 3. Press FN + F7 to boot using the USB. </br> 4.         Select the USB drive. </br> 5. Wait. </br> 6. Wait. If it doesn't boot after 10min, reset the BIOS using the PIN hole. </br> 7. Now it should be      upgraded.
+  * Upgrading the bios is pretty similar to the downgrade process. Also, GPD provided a little guide, here are the steps: </br>
+    > 1. Format a USB drive to FAT32. </br> 2. Copy the files to the ROOT of the USB drive. </br> 3. Press FN + F7 to boot using the USB. </br> 4.         Select the USB drive. </br> 5. Wait. </br> 6. Wait. If it doesn't boot after 10 minutes, reset the BIOS using the PIN hole. </br> 7. Now it should be      upgraded.
 
-**[BIOS v3.00](https://github.com/lertsoft/GPD_WIN4/releases/tag/v3.00)** </br> This Version is has unlocked TDP, and Fan controls.
+#### 6800u specific 
 
-**[BIOS v3.03](https://github.com/lertsoft/GPD_WIN4/releases/tag/v3.03)** </br> This version fixes some issues? I do not have a changelog for it but is the one my device was shipped with. It has an unresponsive touchscreen, The volume buttons should work on Linux, and has a USB C port issue.
+**[BIOS v3.00 6800u](https://github.com/lertsoft/GPD_WIN4/releases/tag/v3.00)** </br> This Version has unlocked TDP, and Fan controls.
 
-**[BIOS v3.04](https://github.com/lertsoft/GPD_WIN4/releases/tag/v3.04)** </br> This version fixes the unresponsive touchscreen, and USB C ports Issue. It is not fixed for the hz and panel skipped frames.
+**[BIOS v3.03 6800u](https://github.com/lertsoft/GPD_WIN4/releases/tag/v3.03)** </br> This version fixes some issues? I do not have a changelog for it but is the one my device was shipped with. It has an unresponsive touchscreen, The volume buttons should work on Linux, and has a USB C port issue.
 
-**[BIOS v3.05](https://github.com/lertsoft/GPD_WIN4/releases/tag/v3.05)** </br> This version fixes the unresponsive touchscreen, and USB C ports Issue just as 3.04. It also fixes the issue that 3.04 introduced of not outputting video from the USB-C ports. It is not fixed for the hz and panel skipped frames.
+**[BIOS v3.04 6800u](https://github.com/lertsoft/GPD_WIN4/releases/tag/v3.04)** </br> This version fixes the unresponsive touchscreen, and USB C ports Issue. It is not fixed for the hz and panel skipped frames.
 
-**[BIOS v3.06](https://github.com/lertsoft/GPD_WIN4/releases/tag/v3.06)** </br> This version should fix the WIN4 volume buttons not working when waking up from sleep in Linux, Fixes the problem where the USB-C port at the bottom does not display in v3.04, It resolves some issues where the device may crash under abnormal conditions, Additionally, it adds support for screen firmware updates by providing a screen firmware upgrade interface by updating the EC to version 8.0 from version 7.8.
+**[BIOS v3.05 6800u](https://github.com/lertsoft/GPD_WIN4/releases/tag/v3.05)** </br> This version fixes the unresponsive touchscreen, and USB C ports Issue just as 3.04. It also fixes the issue that 3.04 introduced of not outputting video from the USB-C ports. It is not fixed for the hz and panel skipped frames.
+
+**[BIOS v3.06 6800u](https://github.com/lertsoft/GPD_WIN4/releases/tag/v3.06)** </br> This version should fix the WIN4 volume buttons not working when waking up from sleep in Linux, Fixes the problem where the USB-C port at the bottom does not display in v3.04, It resolves some issues where the device may crash under abnormal conditions, Additionally, it adds support for screen firmware updates by providing a screen firmware upgrade interface by updating the EC to version 8.0 from version 7.8.
+
+#### 7640u and 7840u specific
+
+**[BIOS v0.40 7640u & 7840u](https://github.com/lertsoft/GPD_WIN4/releases/tag/v0.40)** </br> 
+
+**[BIOS v0.42 7640u & 7840u](https://github.com/lertsoft/GPD_WIN4/releases/tag/v0.42)** </br> 
+
+**[BIOS v0.44 7640u & 7840u](https://github.com/lertsoft/GPD_WIN4/releases/tag/v0.44)** </br> 
+
+**[BIOS v0.46 7640u & 7840u](https://github.com/lertsoft/GPD_WIN4/releases/tag/v0.46)** </br> 
+
+**[BIOS v0.47 7640u & 7840u](https://github.com/lertsoft/GPD_WIN4/releases/tag/v0.47)** </br> 
+
+
 
 ### Screen Color Correction
 > These files were provided by GPD. See the video description. </br>
@@ -349,7 +367,7 @@ Motion Assistant is so much more than just a TDP Tool. It has fan controls, Gyro
 Best for people who want an all-in-one solution.
 
 a. [Original Source](https://gpd.hk/gpdwin4firmwaredriver) </br>
-b. [download link](https://github.com/lertsoft/GPD_WIN4/releases/tag/v1.1.62) </br>
+b. [download link for MA 1.1.73](https://github.com/lertsoft/GPD_WIN4/releases/tag/v1.1.73) </br>
 c. [Motion Assistant Manual](Manuals/Motion_Assitant_manual.pdf) </br>
 d. [Motion Assistant setup and benefits](https://www.youtube.com/watch?v=M3NNxC-BYQs) </br>
 
