@@ -19,8 +19,8 @@
     <li>
       <a href="#drivers--applications">Drivers & Applications</a>
       <ul>
-        <li><a href="#6800u-specific">6800u specific</a></li>
-        <li><a href="#7640u-and-7840u-specific">7640u & 7840u specific</a></li>
+        <li><a href="#6800u-specific">6800u specific BIOS files</a></li>
+        <li><a href="#7640u-and-7840u-specific">7640u & 7840u specific BIOS files</a></li>
         <li><a href="#motion-assistant">Motion Assistant</a></li>
         <li><a href="#screen-color-correction">Screen Color Correction</a></li>
         <li><a href="#tdp-tools">TDP Tools</a></li>
@@ -40,7 +40,7 @@
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is a set of instructions or checklists of sorts for me to follow. This repo is focused mostly on the 6800U variant of the WIN 4 but most of the information should be relevant for the refrash. ALL BIOS Files are for the 6800U WIN 4.
+This is a set of instructions or checklists of sorts for me to follow. This repo is focused mostly on the 6800U variant of the WIN 4 because that is the one I have but most of the information should be relevant for the refresh. For [BIOS files press here](#6800u-specific).
 
 > for those of us who would love to 3D print some accessories. </br>
 ***[3D model file](https://github.com/lertsoft/GPD_WIN4/releases/tag/v0.1.1-3DModel)*** </br>
