@@ -20,7 +20,7 @@
       <a href="#drivers--applications">Drivers & Applications</a>
       <ul>
         <li><a href="#6800u-specific">6800u specific</a></li>
-        <li><a href="#76040u-and-7840u-specific">7640u & 7840u specific</a></li>
+        <li><a href="#7640u-and-7840u-specific">7640u & 7840u specific</a></li>
         <li><a href="#motion-assistant">Motion Assistant</a></li>
         <li><a href="#screen-color-correction">Screen Color Correction</a></li>
         <li><a href="#tdp-tools">TDP Tools</a></li>
@@ -192,6 +192,22 @@ This is a set of instructions or checklists of sorts for me to follow. This repo
 > Once this is done the system can resume after sleep, hibernate, and shut down without prompting for a BitLocker recovery key.
 Thanks  to [mouseish](https://discord.com/channels/243411108940087297/950574522011119707/1125430298407088128) for the tidbit!
 
+**Smokeless UMAF does the same as alt+f5 | Reboot**
+* The keyboard combo of alt + f5 then reboot does the same that this tool would do [Smokeless UMAF tool](https://github.com/DavidS95/Smokeless_UMAF) </br>
+* It is also important to note that the smokeless tool won't show any hidden setting that the Win4 might have. </br>
+
+Thank you Andrebraga for the info!
+
+**Win4 7840u BIOS chip**
+> Use case for documenting this are in case anyone needs to reflash with a reprogrammer.
+> This could be the same chip use on the 6800u and 7640u devices but I have not checked mine 6800u and nobody has posted about regarding the 7640u.
+* it’s on the back of the motherboard. </br>
+* BIOS chip: Winbond 25Q256JWEQ </br>
+
+Thank you to [Awkwabear](https://discord.com/channels/243411108940087297/950574522011119707/1162658352933912656)
+
+![](https://cdn.discordapp.com/attachments/950574522011119707/1162658352615137321/C76BE5D2-B908-40C1-ADBD-BAF3BDFE9AA3.jpg?ex=6561a6f8&is=654f31f8&hm=d05c7cc15454e507d13d0dea7b8fe6ff9b0f8748056d735ce86f19f853838f93&)
+
 ***Booting from a USB Drive***
 * Hold Shift + FN + 7 
 </br>
@@ -281,6 +297,7 @@ Thanks  to [mouseish](https://discord.com/channels/243411108940087297/9505745220
 
 > PS; I am not able to use the gyro controller on Steam games because for some reason I have two controllers recognized and the one that Steam is using had to be the non-gyro one. :/ </br> I will continue this guide on the [troubleshooting area](#troubleshooting)
 
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- DRIVERS & APPLICATIONS -->
@@ -355,9 +372,10 @@ Thanks  to [mouseish](https://discord.com/channels/243411108940087297/9505745220
 
 Out of all the TDP Tools, I would ask myself any of these questions before deciding: </br>
 * Do I want to Tinker and be in charge of every detail? Choose [Ciphray.bat](https://discord.com/channels/243411108940087297/1065818597844340777/1076236291705946182)
-* Do I want some control but not so much granularity? Choose [Motion Assistant](https://github.com/lertsoft/GPD_WIN4/releases/tag/v1.1.62) </br>
-  * Could also choose Handheld Control Panel, Which has not launched yet! but check this repo for [HCP](https://github.com/project-sbc/Handheld-Control-Panel) </br>
-* Do I want the program to just do everything for me and I just choose the max TDP? Choose [SmarterTDP](https://github.com/BillPlus/SmarterTDP) 
+* Do I want some control but not so much granularity? Choose [Motion Assistant](https://github.com/lertsoft/GPD_WIN4/releases/tag/v1.1.73) </br>
+  * Could also choose Handheld Control Panel [HCP](https://github.com/project-sbc/Handheld-Control-Panel) </br>
+  * Another option is Universal x86 Tuning Utility Handheld [UXTU Handheld](https://github.com/JamesCJ60/Universal-x86-Tuning-Utility-Handheld/releases)
+* Do I want the program to just do everything for me and I just choose the max TDP? Choose [SmarterTDP](https://github.com/BillPlus/SmarterTDP)
 
 Hopefully, this helps you decide too. </br>
 Also, give them all a try as you might find some more intuitive than others or you might find some exoteric function that you didn't know was possible.
@@ -381,6 +399,12 @@ Ciphray.bat has a high learning curve but the amount of controls and granularity
 a. The Phawk made a video explaining how to set this bat boy up in 6800U devices. [LINK](https://www.youtube.com/watch?v=ZnEQ068poY0)
 
 ![](https://user-images.githubusercontent.com/74781086/206900455-b058a29e-f4ae-438d-b444-5b2dcbcfa981.png)
+
+#### Universal x86 Tuning Utility Handheld
+> Project SBC contributed to this project upstream project called [Universal x86 Tuning Utility](https://github.com/JamesCJ60/Universal-x86-Tuning-Utility) which is cool to see someone that has provided us with so many great tools contribute to others so that we get more and more options!
+
+Manage, Control, and change the TDP and other settings of any x86 device Intel or AMD.</br>
+https://github.com/JamesCJ60/Universal-x86-Tuning-Utility-Handheld/releases </br>
 
 #### Handheld Control Panel
 > Project SBC is working on adding and solving as many of the pain points that handheld users have with this software!
@@ -406,6 +430,11 @@ You want to enjoy all your Wii, WiiU, and Switch games with full motion controls
 ```
 https://github.com/Valkirie/HandheldCompanion/tree/0.14.0.9
 
+#### Universal x86 Tuning Utility
+> Upstream project for the handheld version of this same tool.
+
+Manage, Control, and change the TDP and other settings of any x86 device Intel or AMD.</br>
+https://github.com/JamesCJ60/Universal-x86-Tuning-Utility
 
 
 ### Test your device
