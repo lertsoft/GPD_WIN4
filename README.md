@@ -122,15 +122,33 @@ This is a set of instructions or checklists of sorts for me to follow. This repo
 #### Screen-related issues 
 * **The touch input is not the same as the register input. </br> This issue could have been caused because of the use of the DriverEasy app** </br> After a fresh installation the screen is not inputting the right spot where it was touched. You press in an area but the input is registered in a different area of the screen. [Discord Message](https://discord.com/channels/243411108940087297/950574522011119707/1090985629095034971) </br> [To fix this issue install this driver](https://drive.google.com/file/d/1oTt9tUKAQH48GG91fywMVi0p9U5wdfoY/view?usp=share%5C_link) </br> For More information on this issue [check this Reddit post](https://www.reddit.com/r/gpdwin/comments/124lfe2/trouble_with_touch_calibration_gpd_win_4/) </br> [Discord message confirmation from Fulbringer of this working](https://discord.com/channels/243411108940087297/950574522011119707/1090986774660120706).
 
-* **The touchscreen stops responding after a couple of hours of use.** </br> This issue since to be affecting all units using the bios 3.0.3 which is the one used for almost all of the 16GB ram models. My unit is affected by it but I am not planning on updating the bios yet.  [](https://gpd.hk/gpdwin4firmwaredriver) [](https://drive.google.com/file/d/1Er7Oo7Rct03LfHotQ3lzOnHNEACnCe7_/view)
+* **The touchscreen stops responding after a couple of hours of use.** </br> This issue since to be affecting all units using the bios 3.0.3 which is the one used for almost all of the 16GB RAM models. My unit is affected by it but I am not planning on updating the bios yet.  [](https://gpd.hk/gpdwin4firmwaredriver) [](https://drive.google.com/file/d/1Er7Oo7Rct03LfHotQ3lzOnHNEACnCe7_/view)
 
-* **The screen has sync problems and/or jitters** </br> This issue for what has been talked about on Discord affects everyone unless someone shows prove otherwise because review units from December are affected by this... GPD seems to be working on a fix but so far it seems that the problem is being caused by the Chip that turns the screen from portrait to landscape. If you would like to test your unit to see if it is affected or are just curious to know how to test for this try this [site](https://www.testufo.com/mprt) and focus your eyes on the UFO (subject). Also, this issue is mentioned that it is most noticeable in 2d games. </br> 
+* **The screen has sync problems and/or jitters** </br> This issue for what has been talked about on Discord affects everyone unless someone shows proof otherwise because review units from December are affected by this... GPD seems to be working on a fix but so far it seems that the problem is being caused by the Chip that turns the screen from portrait to landscape. If you would like to test your unit to see if it is affected or are just curious to know how to test for this try this [site](https://www.testufo.com/mprt) and focus your eyes on the UFO (subject). Also, this issue is mentioned that it is most noticeable in 2d games. </br> 
   * Work-around for the sync problems using CRU: </br> ![](https://cdn.discordapp.com/attachments/950574522011119707/1101014913951998133/image.png) </br> Thanks to G-Cat / Bill for finding this work-around. </br> </br>
   *  **GPD official fix** </br> 🚨🚨 NOTE! IT IS HIGHLY UNLIKELY YOU WILL BRICK THE DEVICE WITH THIS METHOD AS DEMONSTRATED BY [N1ckn4m3](https://discord.com/channels/243411108940087297/950574522011119707/1102592791206436945) COUNTLESS QUALITY ASSURANCE TESTS🚨🚨 </br> These are the files and guide needed: [Files](https://github.com/lertsoft/GPD_WIN4/releases/tag/60-hz) </br> [Guide created by e1000 (Community member)](https://docs.google.com/document/d/1KVFI7zn1XTZnpUldCw3RhRy64FLF5FaSaepIormMh0w/mobilebasic) </br> Where the IC connection pins are located: </br>![](https://cdn.discordapp.com/attachments/950574522011119707/1101364838866878555/image.png)
 
 * **
 
 * **
+
+#### Joystick deadzones
+* **Joystick dead zones are huge! I need a fix** </br> To fix this issue update the firmware of your joystick so that you can use the new WinControl dead zone fixed that GPD has provided. This works on every Win device not only Win4 6800u, 7640u, and 7840u. </br> [WinControl 1.14 + Firmware download](https://github.com/lertsoft/GPD_WIN4/releases/tag/v1.14)
+
+   **Steps To Install:**
+    1) update the firmware of the controller using the file name **GPD.Gamepad.Win4.X408K407.exe** (Controller has to be in gamepad mode).
+    2) once the update is complete, shutdown the device.
+    3) power on the device, install the new wincontrol app **GPD.WinControls.V1.14.exe**, and restart the device. 
+    4) launch Wincontrol, go to mouse customization, deadzone adjustment sliders at the bottom right of the mouse customization menu. (Current recommended settings by early users suggest putting both sticks to -8 on center; per           > Saracchini’s quick test, -8 gives about 6~8% deadzone and re-centers perfectly; -10 reduces to ~4% deadzone but causes slight jitter during re-centering)
+
+    **Things To Note:**
+      1) Version number on ZIP shows 1.14 but Wincontrol UI shows v1.11 - this will be rectified in the next update release; no impact to functionality.
+      2) Windows Defender may falsely flag it as malware, but as mod n1ckn4m3  has mentioned, per his checks yesterday, this is a false positive. [](https://discord.com/channels/243411108940087297/950574522011119707/1154484670260592651)</br>
+
+  [GPD Drive link](https://drive.google.com/file/d/1KH_Ag4s-6SWhesRO_hdbgQKzfcVABPBK/view) </br>
+  [Discord Instructions to update by Brother Chenwk](https://discord.com/channels/243411108940087297/826965330965430272/1154605827836084344) </br>
+
+
 
 </BR>
 
