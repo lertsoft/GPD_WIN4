@@ -40,7 +40,16 @@
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is a set of instructions or checklists of sorts for me to follow. This repo is focused mostly on the 6800U variant of the WIN 4 because that is the one I have but most of the information should be relevant for the refresh. For [BIOS files press here](#6800u-specific).
+This is a set of instructions or checklists of sorts for me to follow. This repo is focused mostly on the 6800U variant of the WIN 4 because that is the one I have but most of the information should be relevant for the refresh. For [BIOS files press here](#bios-versions).
+
+How do you know which BIOS your device uses?
+|   	| 6800u 	| 7x40u 	|
+|---	|-------	|-------	|
+|   	| v3.00 	| v0.40 	|
+|   	| v3.03 	| v0.42 	|
+|   	| v3.04 	| v0.44 	|
+|   	| v3.05 	| v0.46 	|
+|   	| v3.06 	| v0.47 	|
 
 > for those of us who would love to 3D print some accessories. </br>
 ***[3D model file](https://github.com/lertsoft/GPD_WIN4/releases/tag/v0.1.1-3DModel)*** </br>
@@ -347,6 +356,20 @@ Thank you to [Awkwabear](https://discord.com/channels/243411108940087297/9505745
 
   * Upgrading the bios is pretty similar to the downgrade process. Also, GPD provided a little guide, here are the steps: </br>
     > 1. Format a USB drive to FAT32. </br> 2. Copy the files to the ROOT of the USB drive. </br> 3. Press FN + F7 to boot using the USB. </br> 4.         Select the USB drive. </br> 5. Wait. </br> 6. Wait. If it doesn't boot after 10 minutes, reset the BIOS using the PIN hole. </br> 7. Now it should be      upgraded.
+
+#### BIOS Versions
+
+🚨🚨BEFORE PROCEEDING WITH A BIOS UPGRADE OR DOWNGRADE PLEASE BOTHER TO READ WHAT THE REPO SAYS ABOUT EACH VERSION AND DEVICE MODEL AS FLASHING A 6800U BIOS ON THE 7X40U DEVICE WOULD BRICK IT.🚨🚨 </BR>
+🚨🚨IF YOU DO NOT HAVE ANY ISSUES ON YOUR  DEVICE DO NOT START FLASHING BIOS FILES AS THAT COULD CAUSE ISSUES.🚨🚨 </BR>
+THE TABLE IS TO HELP YOU IDENTIFY FOR WHICH DEVICE EACH BIOS VERSION IS SUPPOSE TO GO BUT YOU HAVE TO VERIFY.
+
+|   	| 6800u 	                                                            | 7x40u                                                             	|
+|---	|------------------------------------------------	                    |-------------------------------------------------------------------	|
+|   	| [v3.00](https://github.com/lertsoft/GPD_WIN4/releases/tag/v3.00)  	| [v0.40]((https://github.com/lertsoft/GPD_WIN4/releases/tag/v0.40)) 	|
+|   	| [v3.03](https://github.com/lertsoft/GPD_WIN4/releases/tag/v3.03)   	| [v0.42](https://github.com/lertsoft/GPD_WIN4/releases/tag/v0.42)    |
+|   	| [v3.04](https://github.com/lertsoft/GPD_WIN4/releases/tag/v3.04) 	  | [v0.44]((https://github.com/lertsoft/GPD_WIN4/releases/tag/v0.44)) 	|
+|   	| [v3.05]((https://github.com/lertsoft/GPD_WIN4/releases/tag/v3.05)) 	| [v0.46](https://github.com/lertsoft/GPD_WIN4/releases/tag/v0.46)   	|
+|   	| [v3.06]((https://github.com/lertsoft/GPD_WIN4/releases/tag/v3.06)) 	| [v0.47](https://github.com/lertsoft/GPD_WIN4/releases/tag/v0.47) 	  |
 
 #### 6800u specific 
 
