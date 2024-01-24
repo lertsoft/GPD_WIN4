@@ -128,12 +128,17 @@ How do you know which BIOS your device uses?
 
 ### Known Issues
 
+#### Cannot download anything from Google Drive
+
+Solution: Log-In into your google account. This is the best overall solution for GPD and for us too as, I would rather have decently quick access through google drive that having to have to go to a website that most likely than not it will hosted in china thus slower for people not close to china.
+
 #### Screen-related issues 
 * **The touch input is not the same as the register input. </br> This issue could have been caused because of the use of the DriverEasy app** </br> After a fresh installation the screen is not inputting the right spot where it was touched. You press in an area but the input is registered in a different area of the screen. [Discord Message](https://discord.com/channels/243411108940087297/950574522011119707/1090985629095034971) </br> [To fix this issue install this driver](https://drive.google.com/file/d/1oTt9tUKAQH48GG91fywMVi0p9U5wdfoY/view?usp=share%5C_link) </br> For More information on this issue [check this Reddit post](https://www.reddit.com/r/gpdwin/comments/124lfe2/trouble_with_touch_calibration_gpd_win_4/) </br> [Discord message confirmation from Fulbringer of this working](https://discord.com/channels/243411108940087297/950574522011119707/1090986774660120706).
 
 * **The touchscreen stops responding after a couple of hours of use.** </br> This issue since to be affecting all units using the bios 3.0.3 which is the one used for almost all of the 16GB RAM models. My unit is affected by it but I am not planning on updating the bios yet.  [](https://gpd.hk/gpdwin4firmwaredriver) [](https://drive.google.com/file/d/1Er7Oo7Rct03LfHotQ3lzOnHNEACnCe7_/view)
 
-* **The screen has sync problems and/or jitters** </br> This issue for what has been talked about on Discord affects everyone unless someone shows proof otherwise because review units from December are affected by this... GPD seems to be working on a fix but so far it seems that the problem is being caused by the Chip that turns the screen from portrait to landscape. If you would like to test your unit to see if it is affected or are just curious to know how to test for this try this [site](https://www.testufo.com/mprt) and focus your eyes on the UFO (subject). Also, this issue is mentioned that it is most noticeable in 2d games. </br> 
+* **The screen has sync problems and/or jitters** </br> This issue for what has been talked about on Discord affects everyone unless someone shows proof otherwise because review units from December are affected by this... GPD fixed the issue and published a screen firmware update. **This issue only affects 6800u units as GPD implemented their fixes on any unit release and/or manufacture after may 2023 the month they publicly release the update.
+OLD TEXT ~GPD seems to be working on a fix but so far it seems that the problem is being caused by the Chip that turns the screen from portrait to landscape~. If you would like to test your unit to see if it is affected or are just curious to know how to test for this try this [site](https://www.testufo.com/mprt) and focus your eyes on the UFO (subject). Also, this issue is mentioned that it is most noticeable in 2d games. </br> 
   * Work-around for the sync problems using CRU: </br> ![](https://cdn.discordapp.com/attachments/950574522011119707/1101014913951998133/image.png) </br> Thanks to G-Cat / Bill for finding this work-around. </br> </br>
   *  **GPD official fix** </br> 🚨🚨 NOTE! IT IS HIGHLY UNLIKELY YOU WILL BRICK THE DEVICE WITH THIS METHOD AS DEMONSTRATED BY [N1ckn4m3](https://discord.com/channels/243411108940087297/950574522011119707/1102592791206436945) COUNTLESS QUALITY ASSURANCE TESTS🚨🚨 </br> These are the files and guide needed: [Files](https://github.com/lertsoft/GPD_WIN4/releases/tag/60-hz) </br> [Guide created by e1000 (Community member)](https://docs.google.com/document/d/1KVFI7zn1XTZnpUldCw3RhRy64FLF5FaSaepIormMh0w/mobilebasic) </br> Where the IC connection pins are located: </br>![](https://cdn.discordapp.com/attachments/950574522011119707/1101364838866878555/image.png)
 
@@ -241,7 +246,7 @@ Thank you to [Awkwabear](https://discord.com/channels/243411108940087297/9505745
 
 ***Turning off the LEDs on the WIN 4**
  * Open the win controls app on the WIM4
- * Go to "Mouse model customization"
+ * Go to "Mouse mode customization"
  * look for "status"
  * Next to status there will be an "on" button press that to turn it off
  ![](images/WINCO.jpg)
@@ -494,7 +499,7 @@ https://www.passmark.com/products/performancetest/index.php
   > For some reason HIDHIDE is not hiding one of the controllers to steam, and to the OS. So I still get two different controllers running on my Device Manager.
 
 - **USB A speeds are not as advertised** </br>
-   > If after testing your USB A port your speeds are not up to the standard of USB 3.2 and your device has speeds close to USB 2 than 3 then this could be a temporary solution/workaround. Thanks to **DesignGears** on Discord [Message Link](https://discord.com/channels/243411108940087297/950574522011119707/1086042020528787566) :) 
+   > If after testing your USB A port your speeds are not up to the standard of USB 3.2 and your device has speeds closer to USB 2 than USB 3 then this could be a temporary solution/workaround. Thanks to **DesignGears** on Discord [Message Link](https://discord.com/channels/243411108940087297/950574522011119707/1086042020528787566) :) 
   
   1. Connect a USB A to USB Hub. Test.
   2. If it didn't work check the Windows device manager, and USBDeview and see if the devices are there with the specified spec ie. USB 3.2
@@ -553,7 +558,7 @@ https://www.passmark.com/products/performancetest/index.php
 The Phawx </br>
 - Setting up Motion Assistant on the WIN4. [LINK](https://www.youtube.com/watch?v=WWkmyAxn6-E) </br>
 - Setting up Auto TDP tool on 6800U devices. [LINK](https://www.youtube.com/watch?v=ZnEQ068poY0)
-- Comparison between Z1, 6800u, 7840um, and steam deck APU. [LINK](https://www.youtube.com/watch?v=BOMiEI7ojd8&t=881s)
+- Comparison between Z1, 6800u, 7840u, and steam deck APU. [LINK](https://www.youtube.com/watch?v=BOMiEI7ojd8&t=881s)
 
 TheRelaxingEnd </br>
 - ASMR Video of the GPD Win 4. [LINK](https://www.youtube.com/watch?v=livIIS8MYe0)
