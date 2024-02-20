@@ -64,20 +64,20 @@ How do you know which BIOS your device uses?
      <summary>Single use websites</summary>
      
 #### Keyboard tests
-Test all the keys in your keyboard to make sure they register correctly.
+Test all the keys in your keyboard to make sure they register correctly.</br>
 [Keyboard Test Website](https://keyboard-test.space/)
 
 #### VSYNC Tester
 See if your monitor / screen is syncing correctly. If it isn't that might cause some screen tearing issues and make your games or apps look not great.
-Note: Use chrome for this test as other browsers might have issues.
+Note: Use chrome for this test as other browsers might have issues. </br>
 [VSYNC Tester website](https://www.vsynctester.com/)
 
 #### VRAM Calculator
-How much vram would you need to run inference or training of AI models.
+How much vram would you need to run inference or training of AI models.</br>
 [VRAM Calculator](https://vram.asmirnov.xyz/)
 
 #### DRM Free games on Epic store
-List of DRM Free games on the epic store, as epic gives out a lot of free games this could be useful to know which one you can just download and store on a drive and forget about without being scared that epic might take it off the store or something.
+List of DRM Free games on the epic store, as epic gives out a lot of free games this could be useful to know which one you can just download and store on a drive and forget about without being scared that epic might take it off the store or something.</br>
 [DRM Free Games list](https://www.pcgamingwiki.com/wiki/List_of_DRM-free_games_on_Epic_Games_Store)
  </details> 
 
