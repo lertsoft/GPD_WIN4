@@ -59,6 +59,28 @@ How do you know which BIOS your device uses?
 
 **🚨🚨WARNING!🚨🚨 PLEASE IF YOU PLAN ON DOING A FRESH INSTALL I WOULD SUGGEST NOT USING APPS SUCH AS DRIVEREASY, OR CCLEANER AS THOSE APPS WILL FIND THE LATEST DRIVERS BUT THOSE DRIVERS COULD BE FOR A COMPLETELY DIFFERENT DEVICE, SUCH AS AYANEO WHICH HAS A PORTRAIT SCREEN, AND COULD CAUSE SCREEN ISSUES!  [THANKS TO N1CKN4M3 FOR BRINGING THIS POINT](https://discord.com/channels/243411108940087297/950574522011119707/1090989111642423306)🚨🚨**
 
+### Single use websites
+   <details>
+     <summary>Single use websites</summary>
+     
+#### Keyboard tests
+Test all the keys in your keyboard to make sure they register correctly.
+[Keyboard Test Website](https://keyboard-test.space/)
+
+#### VSYNC Tester
+See if your monitor / screen is syncing correctly. If it isn't that might cause some screen tearing issues and make your games or apps look not great.
+Note: Use chrome for this test as other browsers might have issues.
+[VSYNC Tester website](https://www.vsynctester.com/)
+
+#### VRAM Calculator
+How much vram would you need to run inference or training of AI models.
+[VRAM Calculator](https://vram.asmirnov.xyz/)
+
+#### DRM Free games on Epic store
+List of DRM Free games on the epic store, as epic gives out a lot of free games this could be useful to know which one you can just download and store on a drive and forget about without being scared that epic might take it off the store or something.
+[DRM Free Games list](https://www.pcgamingwiki.com/wiki/List_of_DRM-free_games_on_Epic_Games_Store)
+ </details> 
+
 ### Test your Hardware 
 1. Test GPU under load, look for black screens. (Use graphically intensive software. ie. AAA games, 3Dmark, photoshop, etc.)
     * [🚨🚨 GPU STRESS TEST SOFTWARE 🚨🚨](https://geeks3d.com/furmark/)
