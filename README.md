@@ -50,14 +50,13 @@ How do you know which BIOS your device uses?
 |   	| v3.04 	| v0.44 	|
 |   	| v3.05 	| v0.46 	|
 |   	| v3.06 	| v0.47 	|
+|   	|       	| v0.52 	|
 
 > for those of us who would love to 3D print some accessories. </br>
 ***[3D model file](https://github.com/lertsoft/GPD_WIN4/releases/tag/v0.1.1-3DModel)*** </br>
 ***[Shoulder Buttons - L & R](https://github.com/lertsoft/GPD_WIN4/releases/tag/v0.1.1-3DModel)*** </br>
 ***[Trigger Buttons](https://github.com/lertsoft/GPD_WIN4/releases/tag/v0.1.1-3DModel)*** </br>
 ***[Grip Case](https://github.com/lertsoft/GPD_WIN4/releases/tag/0.1.3D-Model)***
-
-**🚨🚨WARNING!🚨🚨 PLEASE IF YOU PLAN ON DOING A FRESH INSTALL I WOULD SUGGEST NOT USING APPS SUCH AS DRIVEREASY, OR CCLEANER AS THOSE APPS WILL FIND THE LATEST DRIVERS BUT THOSE DRIVERS COULD BE FOR A COMPLETELY DIFFERENT DEVICE, SUCH AS AYANEO WHICH HAS A PORTRAIT SCREEN, AND COULD CAUSE SCREEN ISSUES!  [THANKS TO N1CKN4M3 FOR BRINGING THIS POINT](https://discord.com/channels/243411108940087297/950574522011119707/1090989111642423306)🚨🚨**
 
 ### Single use websites
    <details>
@@ -80,6 +79,12 @@ How much vram would you need to run inference or training of AI models.</br>
 List of DRM Free games on the epic store, as epic gives out a lot of free games this could be useful to know which one you can just download and store on a drive and forget about without being scared that epic might take it off the store or something.</br>
 [DRM Free Games list](https://www.pcgamingwiki.com/wiki/List_of_DRM-free_games_on_Epic_Games_Store)
  </details> 
+
+**DROIX  Knowledge base** </br>
+Droix has a lot of great information about different issues, and questions. </br>
+[Droix Knowledge base](https://droix.net/knowledge-base/article/gpd-win-4-troubleshooting/)
+
+**🚨🚨WARNING!🚨🚨 PLEASE IF YOU PLAN ON DOING A FRESH INSTALL I WOULD SUGGEST NOT USING APPS SUCH AS DRIVEREASY, OR CCLEANER AS THOSE APPS WILL FIND THE LATEST DRIVERS BUT THOSE DRIVERS COULD BE FOR A COMPLETELY DIFFERENT DEVICE, SUCH AS AYANEO WHICH HAS A PORTRAIT SCREEN, AND COULD CAUSE SCREEN ISSUES!  [THANKS TO N1CKN4M3 FOR BRINGING THIS POINT](https://discord.com/channels/243411108940087297/950574522011119707/1090989111642423306)🚨🚨**
 
 ### Test your Hardware 
 1. Test GPU under load, look for black screens. (Use graphically intensive software. ie. AAA games, 3Dmark, photoshop, etc.)
@@ -372,6 +377,7 @@ Thank you to [Awkwabear](https://discord.com/channels/243411108940087297/9505745
     b. [download link](https://github.com/lertsoft/GPD_WIN4/releases/tag/v1.10) </br>
     c. [WIN Controls Manual](Manuals/GPD_Win_Controls_Manual.pdf) </br>
 6. [Windows Debloating tool](https://christitus.com/windows-tool/) </br>
+7. [WIN Controls for linux and opensource](https://github.com/pelrun/pyWinControls)
 
 ### BIOS Files
 > 🚨🚨Be careful using these files as they could cause issues if you do not know what you are doing!🚨🚨
@@ -392,11 +398,12 @@ THE TABLE IS TO HELP YOU IDENTIFY FOR WHICH DEVICE EACH BIOS VERSION IS SUPPOSE 
 
 |   	| 6800u 	                                                            | 7x40u                                                             	|
 |---	|------------------------------------------------	                    |-------------------------------------------------------------------	|
-|   	| [v3.00](https://github.com/lertsoft/GPD_WIN4/releases/tag/v3.00)  	| [v0.40]((https://github.com/lertsoft/GPD_WIN4/releases/tag/v0.40)) 	|
+|   	| [v3.00](https://github.com/lertsoft/GPD_WIN4/releases/tag/v3.00)  	| [v0.40](https://github.com/lertsoft/GPD_WIN4/releases/tag/v0.40)	|
 |   	| [v3.03](https://github.com/lertsoft/GPD_WIN4/releases/tag/v3.03)   	| [v0.42](https://github.com/lertsoft/GPD_WIN4/releases/tag/v0.42)    |
-|   	| [v3.04](https://github.com/lertsoft/GPD_WIN4/releases/tag/v3.04) 	  | [v0.44]((https://github.com/lertsoft/GPD_WIN4/releases/tag/v0.44)) 	|
-|   	| [v3.05]((https://github.com/lertsoft/GPD_WIN4/releases/tag/v3.05)) 	| [v0.46](https://github.com/lertsoft/GPD_WIN4/releases/tag/v0.46)   	|
-|   	| [v3.06]((https://github.com/lertsoft/GPD_WIN4/releases/tag/v3.06)) 	| [v0.47](https://github.com/lertsoft/GPD_WIN4/releases/tag/v0.47) 	  |
+|   	| [v3.04](https://github.com/lertsoft/GPD_WIN4/releases/tag/v3.04) 	  | [v0.44](https://github.com/lertsoft/GPD_WIN4/releases/tag/v0.44) 	|
+|   	| [v3.05](https://github.com/lertsoft/GPD_WIN4/releases/tag/v3.05) 	| [v0.46](https://github.com/lertsoft/GPD_WIN4/releases/tag/v0.46)   	|
+|   	| [v3.06](https://github.com/lertsoft/GPD_WIN4/releases/tag/v3.06) 	| [v0.47](https://github.com/lertsoft/GPD_WIN4/releases/tag/v0.47) 	  |
+|   	| [](() 	| [v0.52](https://github.com/lertsoft/GPD_WIN4/releases/tag/v0.52) 	  |
 
 #### 6800u specific 
 
@@ -421,6 +428,8 @@ THE TABLE IS TO HELP YOU IDENTIFY FOR WHICH DEVICE EACH BIOS VERSION IS SUPPOSE 
 **[BIOS v0.46 7640u & 7840u](https://github.com/lertsoft/GPD_WIN4/releases/tag/v0.46)** </br> 
 
 **[BIOS v0.47 7640u & 7840u](https://github.com/lertsoft/GPD_WIN4/releases/tag/v0.47)** </br> 
+**[BIOS v0.52 7640u & 7840u](https://github.com/lertsoft/GPD_WIN4/releases/tag/v0.52)** </br> 
+This BIOS firmware is only applicable for the upgrade of WIN 4 models with 7840U and 7640U processors. It resolves the issue of being unable to modify the memory frequency. </br>
 
 
 
@@ -516,6 +525,10 @@ https://www.passmark.com/products/performancetest/index.php
 
 <!-- TROUBLESHOOTING -->
 ## Troubleshooting
+
+- **DROIX  Knowledge base** </br>
+Droix has a lot of great information about different issues, and questions. </br>
+[Droix Knowledge base](https://droix.net/knowledge-base/article/gpd-win-4-troubleshooting/)
 
 - **Gyro is not working :(** </br>
   > For some reason HIDHIDE is not hiding one of the controllers to steam, and to the OS. So I still get two different controllers running on my Device Manager.
