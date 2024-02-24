@@ -40,7 +40,7 @@
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is a set of instructions or checklists of sorts for me to follow. This repo is focused mostly on the 6800U variant of the WIN 4 because that is the one I have but most of the information should be relevant for the refresh. For [BIOS files press here](#bios-versions).
+These are a set of instructions or checklists of sorts for me to follow. This repo is focused mostly on the 6800U variant of the WIN 4 because that is the one I have but most of the information should be relevant for the refresh. For [BIOS files press here](#bios-versions).
 
 How do you know which BIOS your device uses?
 |   	| 6800u 	| 7x40u 	|
@@ -160,13 +160,13 @@ Droix has a lot of great information about different issues, and questions. </br
 Solution: Log-In into your google account. This is the best overall solution for GPD and for us too as, I would rather have decently quick access through google drive that having to have to go to a website that most likely than not it will hosted in china thus slower for people not close to china.
 
 #### Screen-related issues 
-* **The touch input is not the same as the register input. </br> This issue could have been caused because of the use of the DriverEasy app** </br> After a fresh installation the screen is not inputting the right spot where it was touched. You press in an area but the input is registered in a different area of the screen. [Discord Message](https://discord.com/channels/243411108940087297/950574522011119707/1090985629095034971) </br> [To fix this issue install this driver](https://drive.google.com/file/d/1oTt9tUKAQH48GG91fywMVi0p9U5wdfoY/view?usp=share%5C_link) </br> For More information on this issue [check this Reddit post](https://www.reddit.com/r/gpdwin/comments/124lfe2/trouble_with_touch_calibration_gpd_win_4/) </br> [Discord message confirmation from Fulbringer of this working](https://discord.com/channels/243411108940087297/950574522011119707/1090986774660120706).
+* **The touch input is not the same as the register input. </br> This issue could have been caused because of the use of the DriverEasy app** </br> After a fresh installation the screen is not inputting the right spot where it was touched. You press in an area but the input is registered in a different area of the screen. [Discord Message](https://discord.com/channels/243411108940087297/950574522011119707/1090985629095034971) </br> [To fix this issue install this driver](https://drive.google.com/file/d/1oTt9tUKAQH48GG91fywMVi0p9U5wdfoY/view?usp=share%5C_link) </br> For More information on this issue [check this Reddit post](https://www.reddit.com/r/gpdwin/comments/124lfe2/trouble_with_touch_calibration_gpd_win_4/) </br> [Discord message confirmation from Fulbringer of it working](https://discord.com/channels/243411108940087297/950574522011119707/1090986774660120706).
 
 * **The touchscreen stops responding after a couple of hours of use.** </br> This issue since to be affecting all units using the bios 3.0.3 which is the one used for almost all of the 16GB RAM models. My unit is affected by it but I am not planning on updating the bios yet.  [](https://gpd.hk/gpdwin4firmwaredriver) [](https://drive.google.com/file/d/1Er7Oo7Rct03LfHotQ3lzOnHNEACnCe7_/view)
 
 * **The screen has sync problems and/or jitters** </br> This issue for what has been talked about on Discord affects everyone unless someone shows proof otherwise because review units from December are affected by this... GPD fixed the issue and published a screen firmware update. **This issue only affects 6800u units as GPD implemented their fixes on any unit release and/or manufacture after may 2023 the month they publicly release the update.
-OLD TEXT ~GPD seems to be working on a fix but so far it seems that the problem is being caused by the Chip that turns the screen from portrait to landscape~. If you would like to test your unit to see if it is affected or are just curious to know how to test for this try this [site](https://www.testufo.com/mprt) and focus your eyes on the UFO (subject). Also, this issue is mentioned that it is most noticeable in 2d games. </br> 
-  * Work-around for the sync problems using CRU: </br> ![](https://cdn.discordapp.com/attachments/950574522011119707/1101014913951998133/image.png) </br> Thanks to G-Cat / Bill for finding this work-around. </br> </br>
+OLD TEXT ~GPD seems to be working on a fix but so far it seems that the problem is being caused by the Chip that turns the screen from portrait to landscape~. If you would like to test your unit to see if it is affected or are just curious to know how to test for the issue try this [site](https://www.testufo.com/mprt) and focus your eyes on the UFO (subject). Also, this issue is mentioned that it is most noticeable in 2d games. </br> 
+  * Work-around for the sync problems using CRU: </br> ![](https://cdn.discordapp.com/attachments/950574522011119707/1101014913951998133/image.png) </br> Thanks to G-Cat / Bill for finding a work-around. </br> </br>
   *  **GPD official fix** </br> 🚨🚨 NOTE! IT IS HIGHLY UNLIKELY YOU WILL BRICK THE DEVICE WITH THIS METHOD AS DEMONSTRATED BY [N1ckn4m3](https://discord.com/channels/243411108940087297/950574522011119707/1102592791206436945) COUNTLESS QUALITY ASSURANCE TESTS🚨🚨 </br> These are the files and guide needed: [Files](https://github.com/lertsoft/GPD_WIN4/releases/tag/60-hz) </br> [Guide created by e1000 (Community member)](https://docs.google.com/document/d/1KVFI7zn1XTZnpUldCw3RhRy64FLF5FaSaepIormMh0w/mobilebasic) </br> Where the IC connection pins are located: </br>![](https://cdn.discordapp.com/attachments/950574522011119707/1101364838866878555/image.png)
 
 * **
@@ -174,7 +174,7 @@ OLD TEXT ~GPD seems to be working on a fix but so far it seems that the problem 
 * **
 
 #### Joystick deadzones
-* **Joystick dead zones are huge! I need a fix** </br> To fix this issue update the firmware of your joystick so that you can use the new WinControl dead zone fixed that GPD has provided. This works on every Win device not only Win4 6800u, 7640u, and 7840u. </br> [WinControl 1.14 + Firmware download](https://github.com/lertsoft/GPD_WIN4/releases/tag/v1.14)
+* **Joystick dead zones are huge! I need a fix** </br> To fix The deadzone fix issue update the firmware of your joystick so that you can use the new WinControl dead zone fixed that GPD has provided. The deadzone fix works on every Win device not only Win4 6800u, 7640u, and 7840u. </br> [WinControl 1.14 + Firmware download](https://github.com/lertsoft/GPD_WIN4/releases/tag/v1.14)
 
    **Steps To Install:**
     1) update the firmware of the controller using the file name **GPD.Gamepad.Win4.X408K407.exe** (Controller has to be in gamepad mode).
@@ -246,24 +246,25 @@ OLD TEXT ~GPD seems to be working on a fix but so far it seems that the problem 
 
 **How not to get scammed by power banks** </br>
 To have an accurate idea of how much energy a power bank has or if the advertised mAh rating is correct or close to what is advertised we can follow these guidelines to gauge the information. </br>
-> Note: Power Banks tend to base their mAh ratings on their Single Cell Voltage which usually is 3.2 - 3.7v. So if we average that to 3.5v that would give us this approximate results.</br>
+> Note: Power Banks tend to base their mAh ratings on their Single Cell Voltage which usually is 3.2 - 3.7v. So if we average that to 3.5v that would give us an approximate results.</br>
 
 The formula is: Device needed Voltage / Battery Cell Voltage. ex. The WIN 4 requires a 20V and if we estimate a 3.5V per cell in the power bank that would be about ~5.71.</br>
-20/3.5 = ~5.71 </br>
+**20/3.5 = ~5.71** </br>
 
 Then we divide the advertised capacity of the power bank by 5.71 figure in order to get a more accurate mAh rating for the Voltage that the WIN 4 requires ie. 20V. </br> 
 The formula would look like this if we assume a Power Bank mAh rating of 24000: </br>
-24000/5.71 = ~4203 mAh. Which is a 4.2amp hours</br>
+**24000/5.71 = ~4203 mAh. Which is a 4.2amp hours.**</br>
 
 Now that we know the amp hours of our battery bank we can multiple the voltage required by the WIN 4 (or any other device voltage) by the amp hours that we just learned. </br>
-20*4.2 = 84 Watt hours. </br>
+**20*4.2 = 84 Watt hours.** </br>
 So given the WIN 4 internal battery is 45.6 Watt hours, the assume 24000 mAh pack is expected to charge the battery from 0 to 100% once and then 0 to 75% a second time. This is calculated by taking the battery's calculated 20V Watt hour rating (84Wh) and then dividing it by the WIN 4 battery capacity of about 45.6 Watt Hours. </br>
 
 Keep in mind this is best case scenario as it doesn't account for: </br>
 1. Misrepresented pack capacity. </br>
 2. Voltage Conversion circuit efficiency. </br>
 3. Battery cycle wear. </br>
-> Thank you Mouseish for the explanation. </br> </br>
+> Thank you Mouseish for the explanation. 
+</br> </br>
 
 **WIN 4 keeps asking for the BitLocker recovery key**
 * Cause: Windows boot menu getting into a fight with the WIN 4's TPM implementation and triggering a false "suspicious activity" that causes Windows to prompt for the key.
@@ -273,14 +274,14 @@ Keep in mind this is best case scenario as it doesn't account for: </br>
 Thanks  to [mouseish](https://discord.com/channels/243411108940087297/950574522011119707/1125430298407088128) for the tidbit!
 
 **Smokeless UMAF does the same as alt+f5 | Reboot**
-* The keyboard combo of alt + f5 then reboot does the same that this tool would do [Smokeless UMAF tool](https://github.com/DavidS95/Smokeless_UMAF) </br>
+* The keyboard combo of alt + f5 then reboot does the same as Smokeless UMAF tool would do [Smokeless UMAF tool](https://github.com/DavidS95/Smokeless_UMAF) </br>
 * It is also important to note that the smokeless tool won't show any hidden setting that the Win4 might have. </br>
 
 Thank you Andrebraga for the info!
 
 **Win4 7840u BIOS chip**
-> Use case for documenting this are in case anyone needs to reflash with a reprogrammer.
-> This could be the same chip use on the 6800u and 7640u devices but I have not checked mine 6800u and nobody has posted about regarding the 7640u.
+> Use case for documenting the BIOS Chip is in case anyone needs to reflash with a reprogrammer.
+> The BIOS chip could be the same chip use on the 6800u and 7640u devices but I have not checked mine 6800u and nobody has posted about regarding the 7640u.
 * it’s on the back of the motherboard. </br>
 * BIOS chip: Winbond 25Q256JWEQ </br>
 
@@ -303,7 +304,7 @@ Thank you to [Awkwabear](https://discord.com/channels/243411108940087297/9505745
 
 **Reducing the CPU Temps**
 > Charral Message: Gelid GP-Ultimate thermal pads size 1.5mm & 1mm work perfectly on the VRMs with NT-H2 significantly reducing the CPU temps due to the original paste not being so fantastic.
-* Using this thermals pads, and repasting the WIN4 could reduce the temps from 79c to 67c, [see this message](https://discord.com/channels/243411108940087297/950574522011119707/1099991883847049246)
+* Using thermals pads, and repasting the WIN4 could reduce the temps from 79c to 67c, [see this message](https://discord.com/channels/243411108940087297/950574522011119707/1099991883847049246)
 * [Pads](https://www.amazon.com/dp/B0922H1V6V?th=1)
 * [Paste](https://www.amazon.com/Noctua-NT-H2-Thermal-Cleaning-Performance/dp/B07MZ45X9G/)
 * [PTM7950](https://www.moddiy.com/products/Honeywell-PTM7950-SP-Super-Highly-Thermally-Conductive-PCM-Pad.html)
@@ -327,7 +328,7 @@ Thank you to [Awkwabear](https://discord.com/channels/243411108940087297/9505745
   a. This is so that you can see an overlay of AMD Adrenalin in the game to make sure that it is working.
 7. Now you are all set. RSR is enabled for all games.
 8. Test that it works by lowering your game resolution to for example; 1280 by 720
-9. Open the overlay using the hotkeys - The default is ALT+R and you will see something like this. </br> </br>
+9. Open the overlay using the hotkeys - The default is ALT+R and you will see something like the photo below. </br> </br>
 ![](images/RSREnabled.jpg) </br>
 
 ***Changing the iGPU vRAM allocation***
@@ -360,7 +361,7 @@ Thank you to [Awkwabear](https://discord.com/channels/243411108940087297/9505745
    ![](images/NefariusSoftware.jpg) </br>
 3. Install the program (HIDHide) like you normally would.
 4. Now, Go to c: > Program Files > Motion Assistant > Drivers
-5. Install all the drivers in this folder. </br>
+5. Install all the drivers in the folder. </br>
   a. Do not go online and install newer versions of them as that could mean that Gyro will not work. Motion Assistant needs the versions it is providing.
 6. Go to the gyro Simulate tab. </br>
     a. pick Xbox360 for now. </br> </br>
@@ -382,7 +383,7 @@ Thank you to [Awkwabear](https://discord.com/channels/243411108940087297/9505745
 
 <!-- DRIVERS & APPLICATIONS -->
 ## Drivers & Applications
-> GPD Official release drivers are out! This is the link to get them. [GPD Download page](https://gpd.hk/gpdwin4firmwaredriver)
+> GPD Official release drivers are out! Folloq the link to get them. [GPD Download page](https://gpd.hk/gpdwin4firmwaredriver)
 
 1. [AMD Adrenalin software](https://www.amd.com/en/support/apu/amd-ryzen-processors/amd-ryzen-7-mobile-processors-radeon-graphics/amd-ryzen-7-6800u)
 2. [GPD Driver pack](https://github.com/lertsoft/GPD_WIN4/releases/tag/v5)
@@ -439,6 +440,7 @@ THE TABLE IS TO HELP YOU IDENTIFY FOR WHICH DEVICE EACH BIOS VERSION IS SUPPOSE 
 **[BIOS v3.06 6800u](https://github.com/lertsoft/GPD_WIN4/releases/tag/v3.06)** </br> This version should fix the WIN4 volume buttons not working when waking up from sleep in Linux, Fixes the problem where the USB-C port at the bottom does not display in v3.04, It resolves some issues where the device may crash under abnormal conditions, Additionally, it adds support for screen firmware updates by providing a screen firmware upgrade interface by updating the EC to version 8.0 from version 7.8.
 
 #### 7640u and 7840u specific
+> These BIOS firmware is only applicable for the upgrade of WIN 4 models with 7840U and 7640U processors. It resolves the issue of being unable to modify the memory frequency. </br>
 
 **[BIOS v0.40 7640u & 7840u](https://github.com/lertsoft/GPD_WIN4/releases/tag/v0.40)** </br> 
 
@@ -449,8 +451,8 @@ THE TABLE IS TO HELP YOU IDENTIFY FOR WHICH DEVICE EACH BIOS VERSION IS SUPPOSE 
 **[BIOS v0.46 7640u & 7840u](https://github.com/lertsoft/GPD_WIN4/releases/tag/v0.46)** </br> 
 
 **[BIOS v0.47 7640u & 7840u](https://github.com/lertsoft/GPD_WIN4/releases/tag/v0.47)** </br> 
+
 **[BIOS v0.52 7640u & 7840u](https://github.com/lertsoft/GPD_WIN4/releases/tag/v0.52)** </br> 
-This BIOS firmware is only applicable for the upgrade of WIN 4 models with 7840U and 7640U processors. It resolves the issue of being unable to modify the memory frequency. </br>
 
 
 
@@ -462,7 +464,7 @@ This BIOS firmware is only applicable for the upgrade of WIN 4 models with 7840U
 * [GPD Color correction Video](https://www.youtube.com/watch?v=-QiW4Zqy-6E)
 
 ### Adding more Screen refresh rates (40hz, 30hz, etc.)
-> Use this third-party application
+> Use CRU a third-party application
 [CRU](https://www.monitortests.com/forum/Thread-Custom-Resolution-Utility-CRU)
 
 ### TDP Tools
@@ -475,7 +477,7 @@ Out of all the TDP Tools, I would ask myself any of these questions before decid
   * Another option is Universal x86 Tuning Utility Handheld [UXTU Handheld](https://github.com/JamesCJ60/Universal-x86-Tuning-Utility-Handheld/releases)
 * Do I want the program to just do everything for me and I just choose the max TDP? Choose [SmarterTDP](https://github.com/BillPlus/SmarterTDP)
 
-Hopefully, this helps you decide too. </br>
+Hopefully, these helped you decide too. </br>
 Also, give them all a try as you might find some more intuitive than others or you might find some exoteric function that you didn't know was possible.
 
 #### Motion Assistant
@@ -493,13 +495,14 @@ d. [Motion Assistant setup and benefits](https://www.youtube.com/watch?v=M3NNxC-
 SmarterTDP is an awesome solution that manages only TDP but it does a great job at that! Perfect if you want a simple, one-click TDP solution to set it and forget it but that will adapt to your device needs.
 
 #### [Ciphray.bat](https://discord.com/channels/243411108940087297/1065818597844340777/1076236291705946182)
-Ciphray.bat has a high learning curve but the amount of controls and granularity that you get from it is amazing. If you love to tinker or maybe learn more about all the different settings, nuts and bolts to put something unique to your needs this will be it.
-a. The Phawk made a video explaining how to set this bat boy up in 6800U devices. [LINK](https://www.youtube.com/watch?v=ZnEQ068poY0)
+Ciphray.bat has a high learning curve but the amount of controls and granularity that you get from it is amazing. If you love to tinker or maybe learn more about all the different settings, nuts and bolts to put something unique to your needs Ciphray bat will be it.
+a. The Phawk made a video explaining how to set the bat up in 6800U devices. It should be fairly similar for 7x40u or 8x40u. [LINK](https://www.youtube.com/watch?v=ZnEQ068poY0)
 
 ![](https://user-images.githubusercontent.com/74781086/206900455-b058a29e-f4ae-438d-b444-5b2dcbcfa981.png)
 
 #### Universal x86 Tuning Utility Handheld
-> Project SBC contributed to this project upstream project called [Universal x86 Tuning Utility](https://github.com/JamesCJ60/Universal-x86-Tuning-Utility) which is cool to see someone that has provided us with so many great tools contribute to others so that we get more and more options!
+> Project SBC contributed to Universal x86 Tuning Utility project. 
+[Universal x86 Tuning Utility](https://github.com/JamesCJ60/Universal-x86-Tuning-Utility). which is cool to see someone that has provided us with so many great tools contribute to others so that we get more and more options!
 
 Manage, Control, and change the TDP and other settings of any x86 device Intel or AMD.</br>
 https://github.com/JamesCJ60/Universal-x86-Tuning-Utility-Handheld/releases </br>
@@ -511,7 +514,7 @@ Manage, Control, and change the TDP and other settings of the compatible devices
 https://github.com/project-sbc/Handheld-Control-Panel </br>
 
 #### ~Power Control Panel v2~ DISCONTINUED
-> Project SBC The Devs of Power Control Panel V2 (PCP V2) have moved all the new features and development to a new project called Handheld Control Panel (HCP) and are working on a new version that will add more TDP features. If interested Please see above  ⬆️⬆️⬆️ </br> </br> I will keep this info here so that people looking for PCPV2 know of the new software.
+> Project SBC The Devs of Power Control Panel V2 (PCP V2) have moved all the new features and development to a new project called Handheld Control Panel (HCP) and are working on a new version that will add more TDP features. If interested Please see above  ⬆️⬆️⬆️ </br> </br> I will keep the stale info here so that people looking for PCPV2 know of the new software.
 
 Control and change the TDP of the compatible devices.</br>
 https://github.com/project-sbc/Power-Control-Panel-v2 </br>
@@ -529,7 +532,7 @@ You want to enjoy all your Wii, WiiU, and Switch games with full motion controls
 https://github.com/Valkirie/HandheldCompanion/tree/0.14.0.9
 
 #### Universal x86 Tuning Utility
-> Upstream project for the handheld version of this same tool.
+> Upstream project of the handheld version of the tool name the same but for handheld PCs.
 
 Manage, Control, and change the TDP and other settings of any x86 device Intel or AMD.</br>
 https://github.com/JamesCJ60/Universal-x86-Tuning-Utility
@@ -585,8 +588,8 @@ Droix has a lot of great information about different issues, and questions. </br
   5. If not. Send a message to Kendyz or ask a question on Discord or here.
   
 - **The touch input is not the same as the register input** </br>
-   > This issue could have been caused because of the use of the DriverEasy, or CCleaner apps to update drivers. </br> After a fresh installation the screen is not inputting the right spot where it was touched. You press in an area but the input is registered in a different area of the screen. [Discord Message](https://discord.com/channels/243411108940087297/950574522011119707/1090985629095034971) </br>
-   > [Discord message confirmation from Fulbringer of this working](https://discord.com/channels/243411108940087297/950574522011119707/1090986774660120706).
+   > The issue could have been caused because of the use of the DriverEasy, or CCleaner apps to update drivers. </br> After a fresh installation the screen is not inputting the right spot where it was touched. You press in an area but the input is registered in a different area of the screen. [Discord Message](https://discord.com/channels/243411108940087297/950574522011119707/1090985629095034971) </br>
+   > [Discord message confirmation from Fulbringer of the fix working](https://discord.com/channels/243411108940087297/950574522011119707/1090986774660120706).
     
   1. [Download these drivers](https://drive.google.com/file/d/1oTt9tUKAQH48GG91fywMVi0p9U5wdfoY/view?usp=share%5C_link)
   2. Install the drivers
@@ -680,7 +683,7 @@ These are some of them.
 
 Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
-If you have a suggestion that would make this better, please open an issue with the tag "enhancement".
+If you have a suggestion that would make this repo better, please open an issue with the tag "enhancement".
 Don't forget to give the project a star! Thanks again!
 
 * [Open a new issue](https://github.com/lertsoft/GPD_WIN4/issues)
