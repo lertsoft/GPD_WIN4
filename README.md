@@ -244,6 +244,26 @@ OLD TEXT ~GPD seems to be working on a fix but so far it seems that the problem 
 
 [GPD WIN4 Manual](Manuals/GPD_WIN4_User_Mannual.pdf)
 
+**How not to get scammed by power banks**
+To have an accurate idea of how much energy a power bank has or if the advertised mAh rating is correct or close to what is advertised we can follow these guidelines to gauge the information. </br>
+> Note: Power Banks tend to base their mAh ratings on their Single Cell Voltage which usually is 3.2 - 3.7v. So if we average that to 3.5v that would give us this approximate results.</br>
+
+The formula is: Device needed Voltage / Battery Cell Voltage. ex. The WIN 4 requires a 20V and if we estimate a 3.5V per cell in the power bank that would be about ~5.71.</br>
+20/3.5 = ~5.71 </br> </br>
+
+Then we divide the advertised capacity of the power bank by 5.71 figure in order to get a more accurate mAh rating for the Voltage that the WIN 4 requires ie. 20V. </br> 
+The formula would look like this if we assume a Power Bank mAh rating of 24000: </br>
+24000/5.71 = ~4203 mAh. Which is a 4.2amp hours</br> </br>
+
+Now that we know the amp hours of our battery bank we can multiple the voltage required by the WIN 4 (or any other device voltage) by the amp hours that we just learned. </br>
+20*4.2 = 84 Watt hours. </br>
+So given the WIN 4 internal battery is 45.6 Watt hours, the assume 24000 mAh pack is expected to charge the battery from 0 to 100% once and then 0 to 75% a second time. This is calculated by taking the battery's calculated 20V Watt hour rating (84Wh) and then dividing it by the WIN 4 battery capacity of about 45.6 Watt Hours. </br>
+
+Keep in mind this is best case scenario as it doesn't account for: </br>
+1. Misrepresented pack capacity. </br>
+2. Voltage Conversion circuit efficiency. </br>
+3. Battery cycle wear. </br> </br>
+> Thank you Mouseish for the explanation.
 **WIN 4 keeps asking for the BitLocker recovery key**
 * Cause: Windows boot menu getting into a fight with the WIN 4's TPM implementation and triggering a false "suspicious activity" that causes Windows to prompt for the key.
 * Solution: disable the "new and improved" boot menu on your encrypted volume using `bcdedit /set default bootmenupolicy legacy`
