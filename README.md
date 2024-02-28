@@ -266,6 +266,12 @@ Keep in mind this is best case scenario as it doesn't account for: </br>
 > Thank you Mouseish for the explanation. 
 </br> </br>
 
+**Display Driver Uninstaller (DDU)**
+DDU is a great utility to uninstall all GPU drivers in case you install more than one during the set-up of your devices or if you would like to revert back to a more stable or performant driver on your device. </br>
+
+Before uninstalling anything keep in mind that you will uninstall your GPU drivers which can cause issues. Read the manual about the tool in the link. </br>
+[Display Driver Uninstaller (DDU)](https://www.guru3d.com/download/display-driver-uninstaller-download/)
+
 **WIN 4 keeps asking for the BitLocker recovery key**
 * Cause: Windows boot menu getting into a fight with the WIN 4's TPM implementation and triggering a false "suspicious activity" that causes Windows to prompt for the key.
 * Solution: disable the "new and improved" boot menu on your encrypted volume using `bcdedit /set default bootmenupolicy legacy`
@@ -400,6 +406,7 @@ Thank you to [Awkwabear](https://discord.com/channels/243411108940087297/9505745
     c. [WIN Controls Manual](Manuals/GPD_Win_Controls_Manual.pdf) </br>
 6. [Windows Debloating tool](https://christitus.com/windows-tool/) </br>
 7. [WIN Controls for linux and opensource](https://github.com/pelrun/pyWinControls)
+8. [Display Driver Uninstaller (DDU)](https://www.guru3d.com/download/display-driver-uninstaller-download/)
 
 ### BIOS Files
 > 🚨🚨Be careful using these files as they could cause issues if you do not know what you are doing!🚨🚨
