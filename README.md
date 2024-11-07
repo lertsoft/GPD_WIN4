@@ -433,7 +433,8 @@ THE TABLE IS TO HELP YOU IDENTIFY FOR WHICH DEVICE EACH BIOS VERSION IS SUPPOSE 
 |   	| [v3.04](https://github.com/lertsoft/GPD_WIN4/releases/tag/v3.04) 	  | [v0.44](https://github.com/lertsoft/GPD_WIN4/releases/tag/v0.44) 	|
 |   	| [v3.05](https://github.com/lertsoft/GPD_WIN4/releases/tag/v3.05) 	| [v0.46](https://github.com/lertsoft/GPD_WIN4/releases/tag/v0.46)   	|
 |   	| [v3.06](https://github.com/lertsoft/GPD_WIN4/releases/tag/v3.06) 	| [v0.47](https://github.com/lertsoft/GPD_WIN4/releases/tag/v0.47) 	  |
-|   	| [](() 	| [v0.52](https://github.com/lertsoft/GPD_WIN4/releases/tag/v0.52) 	  |
+|   	|  	| [v0.52](https://github.com/lertsoft/GPD_WIN4/releases/tag/v0.52) 	  |
+|   	|  	| [v0.60](https://github.com/lertsoft/GPD_WIN4/releases/tag/v0.60) 	  |
 
 #### 6800u specific 
 
