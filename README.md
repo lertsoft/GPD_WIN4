@@ -51,6 +51,7 @@ How do you know which BIOS your device uses?
 |   	| v3.05 	| v0.46 	|
 |   	| v3.06 	| v0.47 	|
 |   	|       	| v0.52 	|
+|   	|       	| v0.60 	|
 
 > for those of us who would love to 3D print some accessories. </br>
 ***[3D model file](https://github.com/lertsoft/GPD_WIN4/releases/tag/v0.1.1-3DModel)*** </br>
