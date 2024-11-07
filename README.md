@@ -463,6 +463,7 @@ THE TABLE IS TO HELP YOU IDENTIFY FOR WHICH DEVICE EACH BIOS VERSION IS SUPPOSE 
 
 **[BIOS v0.52 7640u & 7840u](https://github.com/lertsoft/GPD_WIN4/releases/tag/v0.52)** </br> 
 
+**[BIOS v0.60 (2023 & 2024] 08/23/2024](https://github.com/lertsoft/GPD_WIN4/releases/tag/v0.60)** </br> 
 
 
 ### Screen Color Correction
