@@ -648,8 +648,11 @@ GPD Win 4 Thumbstick Protector </br>
 I love this protector. They actually do what I wanted them to do which is prevent the click of the sticks when on my backpack. They are better and easier to use than the Linus Tech Tips silicone covers, and you get the option of also being able to get one that allows for protection when using a Skull & Co Thumb grip.</br>
 https://www.etsy.com/listing/1468795898/gpd-win-4-thumbstick-protectorcover?ref=yr_purchases
 
+I have not bought batteries from either vendor, if you have questions about official batteries email: kendyz@gpd.hk </br>
 Batteries from GPD AliExpress store.</br>
 https://www.aliexpress.us/item/3256802595312541.html?gatewayAdapt=Pc2Msite </br>
+
+Batteries from a third-party vendor </br>
 https://www.aliexpress.us/item/3256803076020665.html?gatewayAdapt=Pc2Msite </br>
 
 GPD WIN4 Skins. </br> 
